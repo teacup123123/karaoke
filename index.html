@@ -16,9 +16,6 @@ canvas {
   Your browser does not support the audio element.
 </audio>
 
-<p>Click the buttons to play or pause the audio.</p>
-
-<button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--
 <button onclick="pauseAudio()" type="button">Pause Audio</button> 
 -->
@@ -32,13 +29,13 @@ var gamePausedAtMs = Date.now()
 var gameStartedAtMs = Date.now()
 var msPerFrame = 10
 var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
-var windowx = 1000;
-var windowy = 500;
+var windowx = window.innerWidth*0.95;
+var windowy = window.innerHeight*0.6;
 var zeroAtPx = 50;
 var msPerPx = msPerFrame/pixPerFrame
 var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
 var historyMs = zeroAtPx/pixPerFrame*msPerFrame
-var noteThickness = 20
+var noteThickness = windowy/24
 
 var progress = 0
 
@@ -71,6 +68,10 @@ myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 
 
 var myRects = [];//all static things to be drawn is here
+for(i =0;i<windowy/noteThickness;i++)
+{
+	myRects.push(new rectangle(windowx,1,'orange',0,windowy-noteThickness*i));
+}
 myRects.push(new rectangle(1,windowy,'black',zeroAtPx,0));//this is the time = 0 bar
 
 function startGame() {
@@ -169,8 +170,11 @@ function updateGameArea() {
 
 
 </script>
-<div style="text-align:center;width:480px;">
+<div style="text-align:left;width:480px;">
+<p id="subtitles">Subtitles here</p>
+<p id="info">Direction here</p>
 <button onmousedown="changetime()">time</button><br><br>
+<button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
@@ -178,6 +182,5 @@ function updateGameArea() {
   <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
   -->
 </div>
-<p id="info">Direction here</p>
 </body>
 </html>
