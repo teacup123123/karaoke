@@ -64,10 +64,10 @@ function playPauseAudio() {
 
 
 var myNotes = [];//{timeStart : 0, timeEnd :10, pitch :4 ,lyric: "miao"}]; time in miliseconds
-myNotes.push(new myNote(0, 1000,1,lyric='hello'))
-myNotes.push(new myNote(1000, 2000,2,lyric='hello'))
-myNotes.push(new myNote(2000, 2500,3,lyric='hello'))
-myNotes.push(new myNote(2500, 3000,4,lyric='hello'))
+myNotes.push(new myNote(0, 1000,1,lyric='1'))
+myNotes.push(new myNote(1000, 2000,2,lyric='2'))
+myNotes.push(new myNote(2000, 2500,3,lyric='3'))
+myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 
 
 var myRects = [];//all static things to be drawn is here
@@ -95,7 +95,7 @@ var myGameArea = {
     }
 }
 
-function rectangle(width, height, color, x, y) {
+function rectangle(width, height, color, x, y,label='') {
     this.width = width;
     this.height = height;
     this.x = x;
@@ -104,6 +104,7 @@ function rectangle(width, height, color, x, y) {
 	this.sety0 = function(z){this.x = z};
 	this.setx1 = function(z){this.width = z-this.x};
 	this.sety1 = function(z){this.height = z-this.y};
+	this.label = label
 	
     this.update = function() {
 		if(	this.isInside)
@@ -113,7 +114,7 @@ function rectangle(width, height, color, x, y) {
 			ctx.fillRect(this.x, this.y, this.width, this.height);
 			ctx.fillStyle = "white";
 			ctx.font = "20px Arial";
-			ctx.fillText("Hello World", this.x, this.y+noteThickness);
+			ctx.fillText(this.label, this.x, this.y+noteThickness);
 		}        
     }
 	this.isInside = function(){//0 for no and 1 for inside
@@ -128,7 +129,7 @@ function myNote(startms, endms,pitch,lyric='')
 	this.duration = endms-startms;
 	this.pitch = pitch;
 	this.lyric = lyric;
-	this.rect = new rectangle(this.duration/msPerPx, noteThickness, "blue", windowx, windowy)
+	this.rect = new rectangle(this.duration/msPerPx, noteThickness, "blue", windowx, windowy , lyric)
 }
 
 function updateGameArea() {
