@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+
+<audio id="karaokeSrc">
+  <source src="score/mix.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
+<!--
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+-->
+
+<script>
+
+var x = document.getElementById("karaokeSrc");
+
+var gamePaused = true
+var gamePausedAtMs = Date.now()
+var gameStartedAtMs = Date.now()
+var msPerFrame = 10
+var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
+var windowx = 1000;
+var windowy = 500;
+var zeroAtPx = 50;
+var msPerPx = msPerFrame/pixPerFrame
+var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
+var historyMs = zeroAtPx/pixPerFrame*msPerFrame
+var noteThickness = 20
+
+var progress = 0
+
+function changetime() {
+    var para = document.getElementById("info")
+	para.innerText=Date.now()
+}
+
+function playPauseAudio() { 
+	if(gamePaused)
+	{
+		gameStartedAtMs += (Date.now()-gamePausedAtMs);
+		x.play();
+		gamePaused=false;
+	}
+	else
+	{	
+		gamePaused=true	;
+		x.pause(); 
+		gamePausedAtMs = Date.now();
+	}
+} 
+
+
+var myNotes = [];//{timeStart : 0, timeEnd :10, pitch :4 ,lyric: "miao"}]; time in miliseconds
+myNotes.push(new myNote(0, 1000,1,lyric='hello'))
+myNotes.push(new myNote(1000, 2000,2,lyric='hello'))
+myNotes.push(new myNote(2000, 2500,3,lyric='hello'))
+myNotes.push(new myNote(2500, 3000,4,lyric='hello'))
+
+
+var myRects = [];//all static things to be drawn is here
+myRects.push(new rectangle(1,windowy,'black',zeroAtPx,0));//this is the time = 0 bar
+
+function startGame() {
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = windowx;
+        this.canvas.height = windowy;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateGameArea, msPerFrame);
+    },
+    stop : function() {
+        clearInterval(this.interval);
+    },    
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    }
+}
+
+function rectangle(width, height, color, x, y) {
+    this.width = width;
+    this.height = height;
+    this.x = x;
+    this.y = y;
+	this.setx0 = function(z){this.x = z};
+	this.sety0 = function(z){this.x = z};
+	this.setx1 = function(z){this.width = z-this.x};
+	this.sety1 = function(z){this.height = z-this.y};
+	
+    this.update = function() {
+		if(	this.isInside)
+		{
+			ctx = myGameArea.context;
+			ctx.fillStyle = color;
+			ctx.fillRect(this.x, this.y, this.width, this.height);
+			ctx.fillStyle = "white";
+			ctx.font = "20px Arial";
+			ctx.fillText("Hello World", this.x, this.y+noteThickness);
+		}        
+    }
+	this.isInside = function(){//0 for no and 1 for inside
+		return (this.x<=windowx)||(this.x+this.width>=0)||(this.y+this.height>=0)||(this.y<=windowy);
+	}
+}
+
+function myNote(startms, endms,pitch,lyric='')
+{
+	this.start= startms;
+	this.end= endms;
+	this.duration = endms-startms;
+	this.pitch = pitch;
+	this.lyric = lyric;
+	this.rect = new rectangle(this.duration/msPerPx, noteThickness, "blue", windowx, windowy)
+}
+
+function updateGameArea() {
+    myGameArea.frameNo += 1;
+	if (!gamePaused)
+	{
+		progress = Date.now()-gameStartedAtMs;
+	}
+    myGameArea.clear();
+	
+    for (i = 0; i < myNotes.length; i += 1) {//assumes myNotes sorted by start time
+		note = myNotes[i]
+		if(progress + latestMs < note.start)
+		{
+			break;
+		}
+		
+		if(progress - historyMs > note.end)
+		{
+			myNotes.splice(i,1)
+			i-=1
+			continue;
+		}
+		
+		//else in the canvas
+		note.rect.y = windowy-note.pitch*noteThickness;
+		note.rect.x = zeroAtPx+(note.start-progress)/msPerPx;
+		note.rect.update()
+		
+		
+    }
+    for (i = 0; i < myRects.length; i += 1) {
+		r = myRects[i]
+		r.update()
+    }
+}
+
+
+</script>
+<div style="text-align:center;width:480px;">
+<button onmousedown="changetime()">time</button><br><br>
+<!--
+  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+  -->
+</div>
+<p id="info">Direction here</p>
+</body>
+</html>
