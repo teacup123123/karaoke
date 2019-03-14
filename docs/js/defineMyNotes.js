@@ -9,7 +9,7 @@ function loadNotes()
 	var list = document.getElementById("list");
 	var info = document.getElementById("info");
 	var music = document.getElementById("karaokeSrc");
-	var songEntry = songDict[list.selectedIndex];
+	var songEntry = songList[list.selectedIndex];
 	music.src = songEntry.src;
 	info.innerHTML="loaded "+songEntry.title;
 	
@@ -21,7 +21,7 @@ function loadNotes()
 	myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 }
 
-var songDict = []
+var songList = []
 
 function refreshList() {
 	var xhttp = new XMLHttpRequest();
@@ -33,9 +33,9 @@ function refreshList() {
 				list.remove(0);
 			}
 			
-			for (var prop in songDict) {
-				if (songDict.hasOwnProperty(prop)) {
-					delete songDict[prop];
+			for (var prop in songList) {
+				if (songList.hasOwnProperty(prop)) {
+					delete songList[prop];
 				}
 			}
 			
@@ -45,7 +45,7 @@ function refreshList() {
 				var opti = document.createElement('option');
 				opti.text = song.title;
 				list.add(opti)
-				songDict.add(song)
+				songList.add(song)
 			}
 			
 		}
