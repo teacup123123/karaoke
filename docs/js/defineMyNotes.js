@@ -9,7 +9,7 @@ function loadNotes()
 	var list = document.getElementById("list");
 	var info = document.getElementById("info");
 	var music = document.getElementById("karaokeSrc");
-	var songEntry = songDict[list.selected];
+	var songEntry = songDict[list.selectedIndex];
 	music.src = songEntry.src;
 	info.innerHTML="loaded "+songEntry.title;
 	
@@ -21,7 +21,7 @@ function loadNotes()
 	myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 }
 
-var songDict = {}
+var songDict = []
 
 function refreshList() {
 	var xhttp = new XMLHttpRequest();
@@ -45,7 +45,7 @@ function refreshList() {
 				var opti = document.createElement('option');
 				opti.text = song.title;
 				list.add(opti)
-				songDict[song.title]=song
+				songDict.add(song)
 			}
 			
 		}
