@@ -4,6 +4,8 @@ song = {}
 song['src'] = 'score/mix.mp3'
 song['notes'] = []
 
+
+
 note = {}
 note['start'] = 0
 note['end'] = 1000
