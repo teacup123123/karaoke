@@ -199,9 +199,9 @@ loadNotes('')
 <p id="subtitles">Subtitles here</p>
 <p id="info">Direction here</p>
 <p>
-	<select id="list">
+	<select id="list", onchange="loadNotes()">
 	</select>
-	<button onclick="loadNotes()" type="button">Choose song</button>
+	<button onclick="refreshList()" type="button">Refresh songs</button>
 </p>
 <button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--

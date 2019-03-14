@@ -53,5 +53,3 @@ function refreshList() {
 	xhttp.open("GET", "json/list.json", true);
 	xhttp.send();
 }
-
-refreshList()
