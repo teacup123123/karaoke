@@ -22,7 +22,7 @@ canvas {
 
 <script>
 
-var x = document.getElementById("karaokeSrc");
+var x = document.getElementById("karaokeSrc");//TODO this needs to be dynamic
 
 var gamePaused = true
 var gamePausedAtMs = Date.now()
@@ -154,7 +154,8 @@ function myNote(startms, endms,pitch,lyric='')
 	this.duration = endms-startms;
 	this.pitch = pitch;
 	this.lyric = lyric;
-	this.rect = new rectangle(this.duration/msPerPx, noteThickness, ["blue","red"], windowx, windowy , lyric,trues)
+	color = ["blue","red"]//in reality this should be a function of the pitch!!!
+	this.rect = new rectangle(this.duration/msPerPx, noteThickness, color, windowx, windowy , lyric, true)
 }
 
 function updateGameArea() {
