@@ -16,10 +16,10 @@ function refreshList() {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			document.getElementById("list.json").innerHTML = this.responseText;
+			document.getElementById("list").innerHTML = this.responseText;
 		}
 	};
-	xhttp.open("GET", "json/list", true);
+	xhttp.open("GET", "json/list.json", true);
 	xhttp.send();
 }
 
