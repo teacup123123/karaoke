@@ -37,11 +37,7 @@ function refreshList() {
 				list.remove(0);
 			}
 			
-			for (var prop in songList) {
-				if (songList.hasOwnProperty(prop)) {
-					delete songList[prop];
-				}
-			}
+			songList.splice(0,songList.length)
 			
 			var jsonList = JSON.parse(this.responseText);
 			for (index = 0; index < jsonList.length; ++index) {
