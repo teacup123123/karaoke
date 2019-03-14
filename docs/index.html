@@ -70,9 +70,9 @@ myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 var myRects = [];//all static things to be drawn is here
 for(i =0;i<windowy/noteThickness;i++)
 {
-	myRects.push(new rectangle(windowx,1,'orange',0,windowy-noteThickness*i));
+	myRects.push(new rectangle(windowx,1,['orange','orange'],0,windowy-noteThickness*i,'',false));
 }
-myRects.push(new rectangle(1,windowy,'black',zeroAtPx,0));//this is the time = 0 bar
+myRects.push(new rectangle(1,windowy,['black','black'],zeroAtPx,0,'',false));//this is the time = 0 bar
 
 function startGame() {
     myGameArea.start();
@@ -96,7 +96,7 @@ var myGameArea = {
     }
 }
 
-function rectangle(width, height, color, x, y,label='') {
+function rectangle(width, height, color, x, y,label='',isNote = true) {
     this.width = width;
     this.height = height;
     this.x = x;
@@ -106,12 +106,23 @@ function rectangle(width, height, color, x, y,label='') {
 	this.setx1 = function(z){this.width = z-this.x};
 	this.sety1 = function(z){this.height = z-this.y};
 	this.label = label
+	this.colorNeutral=color[0]
+	this.colorActive=color[1]
+	this.isNote = isNote
+	
 	
     this.update = function() {
-		if(	this.isInside)
+		if(this.isInside())
 		{
 			ctx = myGameArea.context;
-			ctx.fillStyle = color;
+			if(this.isNote&&this.isPlaying())
+			{
+				ctx.fillStyle = this.colorActive;
+			}
+			else
+			{
+				ctx.fillStyle = this.colorNeutral;
+			}
 			ctx.fillRect(this.x, this.y, this.width, this.height);
 			ctx.fillStyle = "white";
 			ctx.font = "20px Arial";
@@ -120,6 +131,10 @@ function rectangle(width, height, color, x, y,label='') {
     }
 	this.isInside = function(){//0 for no and 1 for inside
 		return (this.x<=windowx)||(this.x+this.width>=0)||(this.y+this.height>=0)||(this.y<=windowy);
+	}
+	this.isPlaying = function()
+	{
+		return (this.x<=zeroAtPx)&&(this.x+this.width>=zeroAtPx)
 	}
 }
 
@@ -130,7 +145,7 @@ function myNote(startms, endms,pitch,lyric='')
 	this.duration = endms-startms;
 	this.pitch = pitch;
 	this.lyric = lyric;
-	this.rect = new rectangle(this.duration/msPerPx, noteThickness, "blue", windowx, windowy , lyric)
+	this.rect = new rectangle(this.duration/msPerPx, noteThickness, ["blue","red"], windowx, windowy , lyric)
 }
 
 function updateGameArea() {
@@ -173,7 +188,6 @@ function updateGameArea() {
 <div style="text-align:left;width:480px;">
 <p id="subtitles">Subtitles here</p>
 <p id="info">Direction here</p>
-<button onmousedown="changetime()">time</button><br><br>
 <button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
