@@ -20,6 +20,8 @@ canvas {
 <button onclick="pauseAudio()" type="button">Pause Audio</button> 
 -->
 
+<script src="js/defineMyNotes.js"></script>
+<script src="js/definePitchColor.js"></script>
 <script>
 
 var x = document.getElementById("karaokeSrc");//TODO this needs to be dynamic
@@ -37,7 +39,6 @@ var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
 var historyMs = zeroAtPx/pixPerFrame*msPerFrame
 var noteThickness = windowy/24
 
-var progress = 0
 
 function changetime() {
     var para = document.getElementById("info")
@@ -60,11 +61,6 @@ function playPauseAudio() {
 } 
 
 
-var myNotes = [];//{timeStart : 0, timeEnd :10, pitch :4 ,lyric: "miao"}]; time in miliseconds
-myNotes.push(new myNote(0, 1000,1,lyric='1'))
-myNotes.push(new myNote(1000, 2000,2,lyric='2'))
-myNotes.push(new myNote(2000, 2500,3,lyric='3'))
-myNotes.push(new myNote(2500, 3000,4,lyric='4'))
 
 
 var myRects = [];//all static things to be drawn is here
@@ -154,7 +150,7 @@ function myNote(startms, endms,pitch,lyric='')
 	this.duration = endms-startms;
 	this.pitch = pitch;
 	this.lyric = lyric;
-	color = ["blue","red"]//in reality this should be a function of the pitch!!!
+	color = pitchColor(pitch)
 	this.rect = new rectangle(this.duration/msPerPx, noteThickness, color, windowx, windowy , lyric, true)
 }
 
@@ -193,11 +189,16 @@ function updateGameArea() {
     }
 }
 
+loadNotes('')
 
 </script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
 <div style="text-align:left;width:480px;">
 <p id="subtitles">Subtitles here</p>
 <p id="info">Direction here</p>
+<p id="list">List here</p>
 <button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
