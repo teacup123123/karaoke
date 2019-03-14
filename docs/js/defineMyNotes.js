@@ -3,6 +3,10 @@ var myNotes = [];//{timeStart : 0, timeEnd :10, pitch :4 ,lyric: "miao"}]; time 
 
 function loadNotes()
 {
+	
+	gamePaused = true
+	gamePausedAtMs = Date.now()
+	gameStartedAtMs = Date.now()
 	progress = 0;
 	myNotes = [];
 	
