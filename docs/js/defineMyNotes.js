@@ -18,11 +18,27 @@ function loadNotes()
 	info.innerHTML="loaded "+songEntry.title;
 	
 	
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var gotmyNotes = JSON.parse(this.responseText);
+			
+			for (index = 0; index < gotmyNotes.length; ++index) {
+				var note = gotmyNotes[index];
+				myNotes.push(new myNote(note.start, note.end,note.pitch,note.lyric))
+			}
+			
+		}
+	};
+	xhttp.open("GET", songEntry.noteSrc, true);
+	xhttp.send();
 	
-	myNotes.push(new myNote(0, 1000,1,lyric='1'))
-	myNotes.push(new myNote(1000, 2000,2,lyric='2'))
-	myNotes.push(new myNote(2000, 2500,3,lyric='3'))
-	myNotes.push(new myNote(2500, 3000,4,lyric='4'))
+	/*
+	myNotes.push(new myNote(0, 1000,1,'1'))
+	myNotes.push(new myNote(1000, 2000,2,'2'))
+	myNotes.push(new myNote(2000, 2500,3,'3'))
+	myNotes.push(new myNote(2500, 3000,4,'4'))
+	*/
 }
 
 var songList = []
