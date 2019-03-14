@@ -198,7 +198,11 @@ loadNotes('')
 <div style="text-align:left;width:480px;">
 <p id="subtitles">Subtitles here</p>
 <p id="info">Direction here</p>
-<p id="list">List here</p>
+<p>
+	<select id="list">
+	</select>
+	<button onclick="loadNotes()" type="button">Choose song</button>
+</p>
 <button onclick="playPauseAudio()" type="button">Play/Pause Karaoke</button>
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>

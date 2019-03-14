@@ -1,1 +1,2 @@
-{"src": "songs/mix.mp3", "notes": [{"start": 0, "end": 1000, "pitch": -1, "lyric": "miaou"}]}
+[{"src": "songs/mix.mp3", "title":"song no 1", "noteSrc":"json/song1.json" },
+{"src": "songs/mix.mp3", "title":"song no 1", "noteSrc":"json/song1.json" }]
