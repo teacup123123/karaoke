@@ -45,7 +45,7 @@ function refreshList() {
 				var opti = document.createElement('option');
 				opti.text = song.title;
 				list.add(opti)
-				songList.add(song)
+				songList.push(song)
 			}
 			
 		}
