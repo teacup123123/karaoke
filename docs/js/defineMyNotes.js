@@ -19,7 +19,7 @@ function loadNotes()
 	if(aud !== null)
 	{
 		aud.pause()
-		document.body.removeChild(aud)
+		//document.body.removeChild(aud)
 	}
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
