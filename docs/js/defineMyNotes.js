@@ -29,7 +29,7 @@ function loadNotes()
 	}
 	aud.load()
 	document.body.appendChild(aud)
-	fifthSignature=parseInt(note.lyric)
+	fifthSignature=0
 	
 	
 	var xhttp = new XMLHttpRequest();
