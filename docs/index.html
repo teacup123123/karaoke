@@ -11,10 +11,6 @@ canvas {
 </head>
 <body onload="startGame()">
 
-<audio id="karaokeSrc">
-  <source src="songs/shikinouta.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 <!--
 <button onclick="pauseAudio()" type="button">Pause Audio</button> 
@@ -24,7 +20,7 @@ canvas {
 <script src="js/definePitchColor.js"></script>
 <script>
 
-var x = document.getElementById("karaokeSrc");//TODO this needs to be dynamic
+var aud = document.createElement("AUDIO");;//TODO this needs to be dynamic
 
 var gamePaused = true
 var gamePausedAtMs = Date.now()
@@ -49,13 +45,13 @@ function playPauseAudio() {
 	if(gamePaused)
 	{
 		gameStartedAtMs += (Date.now()-gamePausedAtMs);
-		x.play();
+		aud.play();
 		gamePaused=false;
 	}
 	else
 	{	
 		gamePaused=true	;
-		x.pause(); 
+		aud.pause(); 
 		gamePausedAtMs = Date.now();
 	}
 } 

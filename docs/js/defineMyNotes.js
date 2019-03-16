@@ -12,9 +12,9 @@ function loadNotes()
 	
 	var list = document.getElementById("list");
 	var info = document.getElementById("info");
-	var music = document.getElementById("karaokeSrc");
 	var songEntry = songList[list.selectedIndex];
-	music.src = songEntry.src;
+	aud = document.createElement("AUDIO");
+	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
 	music.onload=function(){
 		document.getElementById("playbutton").disabled=false;
