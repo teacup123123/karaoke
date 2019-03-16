@@ -22,6 +22,5 @@ function addfifth(i,j)
 var fifthSignature = 0
 function pitchColor(pitch)
 {
-	color = _pitch_dict[addfifth(pitch+pitchOffset,fifthSignature)%12]//in reality this should be a function of the pitch!!!
-	return color
+	return _pitch_dict[addfifth(pitch+pitchOffset,fifthSignature)%12]//in reality this should be a function of the pitch!!!
 }
