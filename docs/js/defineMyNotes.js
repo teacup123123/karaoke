@@ -48,7 +48,7 @@ function loadNotes()
 			
 			setTimeout(function(){
 				document.getElementById("playbutton").disabled=false;
-			}, 10000)
+			}, 5000)
 			//document.getElementById("playbutton").disabled=false;
 			
 		}
