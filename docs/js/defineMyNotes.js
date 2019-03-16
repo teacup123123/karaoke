@@ -27,6 +27,7 @@ function loadNotes()
 	aud.onload=function(){
 		document.getElementById("playbutton").disabled=false;
 	}
+	aud.load()
 	document.body.appendChild(aud)
 	
 	
@@ -43,12 +44,32 @@ function loadNotes()
 			
 			for (index = 0; index < gotmyNotes.notes.length; ++index) {
 				var note = gotmyNotes.notes[index];
-				myNotes.push(new myNote(note.start, note.end,note.pitch-gotmyNotes.referencePitch,note.lyric))
+				if(note.pitch == -1)
+				{
+					var beatlyric='!'
+					switch(note.lyric.length)
+					{
+						case 2:
+							//tone change
+							fifthSignature=int(note.lyric)
+							beatlyric = "轉調"
+							break
+						case 0:
+							break
+						default:
+							beatlyric = note.lyric
+					}
+					myNotes.push(new myNote(note.start, note.start+10,gotmyNotes.range-2,beatlyric,'black'))					
+				}
+				else
+				{
+					myNotes.push(new myNote(note.start, note.end,note.pitch-gotmyNotes.referencePitch,note.lyric))					
+				}
 			}
 			
 			setTimeout(function(){
 				document.getElementById("playbutton").disabled=false;
-			}, 5000)
+			}, 3000)
 			//document.getElementById("playbutton").disabled=false;
 			
 		}

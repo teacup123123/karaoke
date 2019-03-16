@@ -14,8 +14,14 @@ _pitch_dict[14-3] = ['darkmagenta','mediumpurple'];//B
 
 var pitchOffset =0;
 
+function addfifth(i,j)
+{
+	return i+7*j
+}
+
+var fifthSignature = 0
 function pitchColor(pitch)
 {
-	color = _pitch_dict[(pitch+pitchOffset)%12]//in reality this should be a function of the pitch!!!
+	color = _pitch_dict[addfifth(pitch+pitchOffset,fifthSignature)%12]//in reality this should be a function of the pitch!!!
 	return color
 }

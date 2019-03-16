@@ -119,6 +119,15 @@ if __name__ == '__main__':
         maxPitchi = int(np.argmax([entry['pitch'] for entry in notesForJson]))
         maxPitch = notesForJson[maxPitchi]['pitch']
         minPitch = notesForJson[minPitchi]['pitch']
+
+        #beat fusion
+        for start, end, pitch, lyr in beat_lines:
+            startms, endms = beat2time(start), beat2time(end)
+            note = {'start': int(startms), 'end': int(endms), 'pitch': -1, 'lyric': lyr}
+            notesForJson.append(note)
+        notesForJson.sort(key=lambda x:x['start'])
+
+
         ref = 12 * np.floor(minPitch / 12.)
         content = {'notes': notesForJson, 'referencePitch': int(ref),
                    'range': maxPitch - ref + 4, 'vocalmin': minPitch, 'vocalmax': maxPitch}

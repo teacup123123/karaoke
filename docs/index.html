@@ -131,6 +131,7 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 			}
 			ctx.fillRect(this.x, this.y, this.width, this.height);
 			ctx.fillStyle = "white";
+			if(color.length>2) ctx.fillStyle = color[2];//override
 			ctx.font = "20px Arial";
 			ctx.fillText(this.label, this.x, this.y+noteThickness);
 		}        
@@ -144,7 +145,7 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 	}
 }
 
-function myNote(startms, endms,pitch,lyric='')
+function myNote(startms, endms,pitch,lyric='', textcol='white')
 {
 	this.start= startms;
 	this.end= endms;
@@ -152,6 +153,7 @@ function myNote(startms, endms,pitch,lyric='')
 	this.pitch = pitch;
 	this.lyric = lyric;
 	color = pitchColor(pitch)
+	color.push(textcol)
 	this.rect = new rectangle(this.duration/msPerPx, noteThickness, color, windowx, windowy , lyric, true)
 }
 

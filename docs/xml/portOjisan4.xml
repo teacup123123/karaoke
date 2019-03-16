@@ -56,16 +56,16 @@
         </midi-instrument>
       </score-part></part-list>
   <part id="P5">
-    <measure number="1" width="136.63">
+    <measure number="1" width="127.72">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>45.04596527068437</per-minute>
+            <per-minute>62.805601708995965</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="45.04596527068437" />
+        <sound tempo="62.805601708995965" />
         </direction><print>
         <staff-layout number="1">
           <staff-distance>65.00</staff-distance>
@@ -96,11 +96,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181824</per-minute>
+            <per-minute>79.9154334038055</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181824" />
+        <sound tempo="79.9154334038055" />
         </direction><note>
         <rest />
         <duration>16</duration>
@@ -112,11 +112,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380542</per-minute>
+            <per-minute>79.65081276339552</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380542" />
+        <sound tempo="79.65081276339552" />
         </direction><note>
         <rest />
         <duration>16</duration>
@@ -128,11 +128,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.65081276339548</per-minute>
+            <per-minute>80.44998479781093</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.65081276339548" />
+        <sound tempo="80.44998479781093" />
         </direction><note>
         <rest />
         <duration>16</duration>
@@ -167,11 +167,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.12679425837325</per-minute>
+            <per-minute>79.12679425837317</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.12679425837325" />
+        <sound tempo="79.12679425837317" />
         </direction><note>
         <rest />
         <duration>16</duration>
@@ -199,11 +199,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.12679425837335</per-minute>
+            <per-minute>78.8673621460506</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.12679425837335" />
+        <sound tempo="78.8673621460506" />
         </direction><note>
         <rest />
         <duration>16</duration>
@@ -215,18 +215,18 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380537</per-minute>
+            <per-minute>79.91543340380566</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380537" />
+        <sound tempo="79.91543340380566" />
         </direction><note>
         <rest />
         <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
         </note>
-      <note default-x="34.05" default-y="-460.00">
+      <note default-x="34.04" default-y="-460.00">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -242,11 +242,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380557</per-minute>
+            <per-minute>79.91543340380537</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380557" />
+        <sound tempo="79.91543340380537" />
         </direction><note default-x="17.86" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -267,11 +267,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181809</per-minute>
+            <per-minute>79.91543340380575</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181809" />
+        <sound tempo="79.91543340380575" />
         </direction><note default-x="18.22" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -306,11 +306,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380575</per-minute>
+            <per-minute>80.18181818181789</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380575" />
+        <sound tempo="80.18181818181789" />
         </direction><note default-x="17.86" default-y="-480.00">
         <pitch>
           <step>A</step>
@@ -331,11 +331,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181809</per-minute>
+            <per-minute>79.65081276339558</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181809" />
+        <sound tempo="79.65081276339558" />
         </direction><note default-x="18.22" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -370,11 +370,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380557</per-minute>
+            <per-minute>80.18181818181789</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380557" />
+        <sound tempo="80.18181818181789" />
         </direction><note default-x="17.86" default-y="-490.00">
         <pitch>
           <step>F</step>
@@ -395,11 +395,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.65081276339538</per-minute>
+            <per-minute>80.18181818181868</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.65081276339538" />
+        <sound tempo="80.18181818181868" />
         </direction><note default-x="18.22" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -466,11 +466,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.44998479781084</per-minute>
+            <per-minute>79.91543340380557</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.44998479781084" />
+        <sound tempo="79.91543340380557" />
         </direction><note default-x="20.78" default-y="-480.00">
         <pitch>
           <step>A</step>
@@ -491,11 +491,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380575</per-minute>
+            <per-minute>79.91543340380557</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380575" />
+        <sound tempo="79.91543340380557" />
         </direction><note default-x="18.22" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -579,11 +579,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181809</per-minute>
+            <per-minute>79.9154334038052</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181809" />
+        <sound tempo="79.9154334038052" />
         </direction><note default-x="18.05" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -608,11 +608,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380537</per-minute>
+            <per-minute>80.18181818181809</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380537" />
+        <sound tempo="80.18181818181809" />
         </direction><note default-x="13.80" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -633,11 +633,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.65081276339576</per-minute>
+            <per-minute>80.18181818181847</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.65081276339576" />
+        <sound tempo="80.18181818181847" />
         </direction><note default-x="17.86" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -662,11 +662,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181829</per-minute>
+            <per-minute>79.91543340380557</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181829" />
+        <sound tempo="79.91543340380557" />
         </direction><note default-x="13.80" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -687,11 +687,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181847</per-minute>
+            <per-minute>79.9154334038052</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.18181818181847" />
+        <sound tempo="79.9154334038052" />
         </direction><note default-x="13.80" default-y="-475.00">
         <pitch>
           <step>B</step>
@@ -716,11 +716,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380478</per-minute>
+            <per-minute>79.91543340380595</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380478" />
+        <sound tempo="79.91543340380595" />
         </direction><note default-x="13.80" default-y="-475.00">
         <pitch>
           <step>B</step>
@@ -741,11 +741,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272772</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272772" />
+        <sound tempo="120.27272727272715" />
         </direction><attributes>
         <time>
           <beats>3</beats>
@@ -773,11 +773,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509308</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509308" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="23.26" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -825,11 +825,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="23.26" default-y="-480.00">
         <pitch>
           <step>A</step>
@@ -851,11 +851,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>119.47621914509422</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
+        <sound tempo="119.47621914509422" />
         </direction><note default-x="18.06" default-y="-490.00">
         <pitch>
           <step>F</step>
@@ -877,11 +877,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.67497719671594</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="120.67497719671594" />
         </direction><note default-x="31.46" default-y="-490.00">
         <pitch>
           <step>F</step>
@@ -929,11 +929,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272772</per-minute>
+            <per-minute>119.87315010570833</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272772" />
+        <sound tempo="119.87315010570833" />
         </direction><note default-x="25.26" default-y="-485.00">
         <pitch>
           <step>G</step>
@@ -955,11 +955,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272772</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272772" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="18.46" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -981,11 +981,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
+        <sound tempo="119.47621914509365" />
         </direction><note>
         <rest />
         <duration>8</duration>
@@ -1048,11 +1048,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>120.27272727272772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
+        <sound tempo="120.27272727272772" />
         </direction><note default-x="18.06" default-y="-480.00">
         <pitch>
           <step>A</step>
@@ -1074,11 +1074,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>120.27272727272654</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
+        <sound tempo="120.27272727272654" />
         </direction><note>
         <rest />
         <duration>8</duration>
@@ -1141,11 +1141,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671594</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671594" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="23.26" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1171,11 +1171,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272654</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="120.27272727272654" />
         </direction><note default-x="24.82" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1241,11 +1241,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.47621914509422</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="119.47621914509422" />
         </direction><note default-x="18.22" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -1282,11 +1282,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="25.82" default-y="-475.00">
         <pitch>
           <step>B</step>
@@ -1319,11 +1319,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509308</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509308" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="18.06" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -1345,11 +1345,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671655</per-minute>
+            <per-minute>119.87315010570833</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671655" />
+        <sound tempo="119.87315010570833" />
         </direction><note default-x="20.86" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -1371,11 +1371,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>119.87315010570833</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="119.87315010570833" />
         </direction><note default-x="25.62" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -1487,11 +1487,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="26.46" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1513,11 +1513,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="18.26" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1614,11 +1614,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="23.82" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1655,11 +1655,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.4762191450925</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="119.4762191450925" />
         </direction><note default-x="26.86" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -1705,11 +1705,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>120.67497719671772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="120.67497719671772" />
         </direction><note default-x="25.82" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -1744,11 +1744,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.4762191450948</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.4762191450948" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="18.06" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -1811,11 +1811,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="26.46" default-y="-480.00">
         <pitch>
           <step>A</step>
@@ -1837,11 +1837,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="119.47621914509365" />
         </direction><note default-x="26.46" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -1863,11 +1863,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="120.27272727272599" />
         </direction><note default-x="18.42" default-y="-485.00">
         <pitch>
           <step>G</step>
@@ -1986,11 +1986,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.2727272727283" />
         </direction><note default-x="24.66" default-y="-485.00">
         <pitch>
           <step>G</step>
@@ -2012,11 +2012,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="28.42" default-y="-485.00">
         <pitch>
           <step>G</step>
@@ -2060,11 +2060,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.27272727272599" />
         </direction><note default-x="15.62" default-y="-485.00">
         <pitch>
           <step>G</step>
@@ -2108,11 +2108,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="119.47621914509365" />
         </direction><note default-x="15.62" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2156,11 +2156,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570545</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570545" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="14.46" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -2178,11 +2178,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
+        <sound tempo="120.2727272727283" />
         </direction><note default-x="15.62" default-y="-455.00">
         <pitch>
           <step>F</step>
@@ -2230,11 +2230,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.6749771967189</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.6749771967189" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="18.42" default-y="-455.00">
         <pitch>
           <step>F</step>
@@ -2288,11 +2288,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="119.87315010570893" />
         </direction><attributes>
         <key>
           <fifths>1</fifths>
@@ -2319,11 +2319,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="17.86" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -2345,11 +2345,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.27272727272599" />
         </direction><note default-x="18.06" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2371,11 +2371,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
+        <sound tempo="120.27272727272715" />
         </direction><note default-x="18.26" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2397,11 +2397,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="18.06" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -2423,11 +2423,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="22.06" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -2449,11 +2449,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="119.47621914509365" />
         </direction><note default-x="23.26" default-y="-465.00">
         <pitch>
           <step>D</step>
@@ -2475,11 +2475,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>120.67497719671655</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="120.67497719671655" />
         </direction><note default-x="27.66" default-y="-465.00">
         <pitch>
           <step>D</step>
@@ -2501,11 +2501,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509133</per-minute>
+            <per-minute>119.87315010570545</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509133" />
+        <sound tempo="119.87315010570545" />
         </direction><note default-x="26.86" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -2595,11 +2595,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="21.86" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2621,11 +2621,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>119.47621914509597</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="119.47621914509597" />
         </direction><note>
         <rest />
         <duration>8</duration>
@@ -2688,11 +2688,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570661</per-minute>
+            <per-minute>120.67497719671418</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570661" />
+        <sound tempo="120.67497719671418" />
         </direction><note default-x="21.86" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -2718,11 +2718,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="18.42" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -2789,11 +2789,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="21.82" default-y="-430.00">
         <pitch>
           <step>D</step>
@@ -2830,11 +2830,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272947</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="120.27272727272947" />
         </direction><note default-x="18.42" default-y="-455.00">
         <pitch>
           <step>F</step>
@@ -2868,11 +2868,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.47621914508903</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="119.47621914508903" />
         </direction><note default-x="22.06" default-y="-430.00">
         <pitch>
           <step>D</step>
@@ -2894,11 +2894,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462652</per-minute>
+            <per-minute>121.07992678462772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462652" />
+        <sound tempo="121.07992678462772" />
         </direction><note default-x="25.42" default-y="-430.00">
         <pitch>
           <step>D</step>
@@ -3267,11 +3267,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462772</per-minute>
+            <per-minute>121.07992678462652</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462772" />
+        <sound tempo="121.07992678462652" />
         </direction><note default-x="25.42" default-y="-430.00">
         <pitch>
           <step>D</step>
@@ -3306,11 +3306,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462652</per-minute>
+            <per-minute>121.07992678462534</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462652" />
+        <sound tempo="121.07992678462534" />
         </direction><note default-x="22.66" default-y="-440.00">
         <pitch>
           <step>B</step>
@@ -5160,11 +5160,11 @@
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>112.41909183477352</per-minute>
+            <per-minute>112.85813683066837</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="112.41909183477352" />
+        <sound tempo="112.85813683066837" />
         </direction><note default-x="10.36" default-y="-455.00">
         <pitch>
           <step>F</step>
