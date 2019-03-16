@@ -1,16 +1,16 @@
 var _pitch_dict = {};
-_pitch_dict[0] = ['magenta','violet'];//A 
-_pitch_dict[1] = ['mediumpurple','grey'];//A~B
-_pitch_dict[2] = ['darkmagenta','mediumpurple'];//B
-_pitch_dict[3] = ['crimson','red'];//C
-_pitch_dict[4] = ['darkred','grey'];//C~D
-_pitch_dict[5] = ['darkorange','orange'];//D
-_pitch_dict[6] = ['firebrick','grey'];//D~E
-_pitch_dict[7] = ['gold','yellow'];//E
-_pitch_dict[8] = ['darkgreen','green'];//F
-_pitch_dict[9] = ['darkseagreen','grey'];//F~G
-_pitch_dict[10] = ['teal','darkturquoise'];//G
-_pitch_dict[11] = ['thistle','grey'];//G~A
+_pitch_dict[3-3] = ['crimson','red'];//C
+_pitch_dict[4-3] = ['darkred','grey'];//C~D
+_pitch_dict[5-3] = ['darkorange','orange'];//D
+_pitch_dict[6-3] = ['firebrick','grey'];//D~E
+_pitch_dict[7-3] = ['gold','yellow'];//E
+_pitch_dict[8-3] = ['darkgreen','green'];//F
+_pitch_dict[9-3] = ['darkseagreen','grey'];//F~G
+_pitch_dict[10-3] = ['teal','darkturquoise'];//G
+_pitch_dict[11-3] = ['thistle','grey'];//G~A
+_pitch_dict[12-3] = ['magenta','violet'];//A 
+_pitch_dict[13-3] = ['mediumpurple','grey'];//A~B
+_pitch_dict[14-3] = ['darkmagenta','mediumpurple'];//B
 
 var pitchOffset =0;
 
