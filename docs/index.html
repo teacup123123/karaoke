@@ -214,7 +214,7 @@ function shiftBL(qtty)
 {
 	blacklinerect.x-=qtty;
 	var dial = document.getElementById('dial')
-	dial.text=blacklinerect.x;
+	dial.textContent=blacklinerect.x;
 }
 </script>
 <button onclick="shiftBL(-4);" type="button">shift black line LEFT</button>
