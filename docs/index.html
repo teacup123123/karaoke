@@ -145,6 +145,13 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 			if(this.label.startsWith('轉調 to'))
 			{
 				fifthSignature = parseInt('note.label[-2:-1]')
+				for(i=0;i<myNotes.length;i++)
+				{
+					var rect_=myNotes[i].rect.col
+					var color = pitchColor(myNotes[i].pitch)
+					rect_.colorNeutral=color[0]
+					rect_.colorActive=color[1]
+				}
 			}
 			
 		}
