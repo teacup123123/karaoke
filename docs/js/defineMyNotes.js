@@ -52,7 +52,7 @@ function loadNotes()
 					{
 						case 2:
 							
-							beatlyric = "轉調 to"+parseInt(note.lyric)
+							beatlyric = "轉調 to "+parseInt(note.lyric)
 							break
 						case 0:
 							break
