@@ -37,6 +37,11 @@ function loadNotes()
 				myNotes.push(new myNote(note.start, note.end,note.pitch-gotmyNotes.referencePitch,note.lyric))
 			}
 			
+			setTimeout(function(){
+				document.getElementById("playbutton").disabled=false;
+			}, 5000)
+			document.getElementById("playbutton").disabled=false;
+			
 		}
 	};
 	xhttp.open("GET", songEntry.noteSrc, true);
