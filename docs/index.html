@@ -60,7 +60,7 @@ function playPauseAudio() {
 
 
 var myRects = [];//all static things to be drawn is here
-function resetStaticObjects()
+function resetStaticObjects(rp)
 {
 	myRects.length=0;
 	for(i =0;i<windowy/noteThickness;i++)
@@ -68,7 +68,7 @@ function resetStaticObjects()
 		myRects.push(new rectangle(windowx,1,'orange',0,windowy-noteThickness*i));
 	}
 	myRects.push(new rectangle(1,windowy,'black',zeroAtPx,0));//this is the time = 0 bar
-	pitchOffset = gotmyNotes.referencePitch;
+	pitchOffset = rp;
 }
 
 function startGame() {

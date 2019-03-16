@@ -34,7 +34,7 @@ function loadNotes()
 			
 			info.innerHTML="loaded json"+songEntry.title;
 			
-			resetStaticObjects();
+			resetStaticObjects(gotmyNotes.referencePitch);
 			
 			for (index = 0; index < gotmyNotes.notes.length; ++index) {
 				var note = gotmyNotes.notes[index];
