@@ -142,7 +142,7 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 		if(this.past=='not yet'&&this.x<=blacklinerect.x)
 		{
 			this.past='passed';
-			if(this.label.startsWith('轉調 to')
+			if(this.label.startsWith('轉調 to'))
 			{
 				fifthSignature = parseInt('note.label[-2:-1]')
 			}
