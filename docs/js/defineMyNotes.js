@@ -15,7 +15,10 @@ function loadNotes()
 	var music = document.getElementById("karaokeSrc");
 	var songEntry = songList[list.selectedIndex];
 	music.src = songEntry.src;
-	info.innerHTML="loaded "+songEntry.title;
+	document.getElementById("playbutton").disabled=true;
+	music.onload=function(){
+		document.getElementById("playbutton").disabled=false;
+	}
 	
 	
 	var xhttp = new XMLHttpRequest();
@@ -24,7 +27,10 @@ function loadNotes()
 			var gotmyNotes = JSON.parse(this.responseText);
 			
 			noteThickness = windowy/gotmyNotes.range;
-			pitchOffset = gotmyNotes.referencePitch;
+			
+			info.innerHTML="loaded json"+songEntry.title;
+			
+			resetStaticObjects();
 			
 			for (index = 0; index < gotmyNotes.notes.length; ++index) {
 				var note = gotmyNotes.notes[index];
