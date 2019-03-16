@@ -119,6 +119,7 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 	}
 	this.isNote = isNote
 	
+	this.past = 'not yet'
 	
     this.update = function() {
 		if(this.isInside())
@@ -138,13 +139,22 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 			ctx.font = "20px Arial";
 			ctx.fillText(this.label, this.x, this.y+noteThickness);
 		}        
+		if(this.past=='not yet'&&this.x<=blacklinerect.x)
+		{
+			this.past='passed';
+			if(this.label.startsWith('轉調 to')
+			{
+				fifthSignature = parseInt('note.label[-1]')
+			}
+			
+		}
     }
 	this.isInside = function(){//0 for no and 1 for inside
 		return (this.x<=windowx)||(this.x+this.width>=0)||(this.y+this.height>=0)||(this.y<=windowy);
 	}
 	this.isPlaying = function()
 	{
-		return (this.x<=zeroAtPx)&&(this.x+this.width>=zeroAtPx)
+		return (this.x<=blacklinerect.x)&&(this.x+this.width>=blacklinerect.x)
 	}
 }
 
