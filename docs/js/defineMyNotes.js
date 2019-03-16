@@ -51,7 +51,7 @@ function loadNotes()
 					{
 						case 2:
 							//tone change
-							fifthSignature=int(note.lyric)
+							fifthSignature=parseInt(note.lyric)
 							beatlyric = "轉調"
 							break
 						case 0:
