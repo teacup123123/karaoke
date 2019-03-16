@@ -13,12 +13,16 @@ function loadNotes()
 	var list = document.getElementById("list");
 	var info = document.getElementById("info");
 	var songEntry = songList[list.selectedIndex];
+	
+	
+	document.body.removeChild(aud)
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
 	aud.onload=function(){
 		document.getElementById("playbutton").disabled=false;
 	}
+	document.body.appendChild(aud)
 	
 	
 	var xhttp = new XMLHttpRequest();
