@@ -1,4 +1,4 @@
-[{"src": "songs/s1.mp3", "title":"貓人聲", "noteSrc":"json/portOjisan0.json" }
-,{"src": "songs/s2.mp3", "title":"zj人聲", "noteSrc":"json/portOjisan2.json" }
-,{"src": "songs/s3.mp3", "title":"凱人聲", "noteSrc":"json/portOjisan4.json" }
+[{"src": "songs/portOjisan/catvocal.mp3", "title":"貓人聲", "noteSrc":"json/portOjisan0.json" }
+,{"src": "songs/portOjisan/zjvocal.mp3", "title":"zj人聲", "noteSrc":"json/portOjisan2.json" }
+,{"src": "songs/portOjisan/ttvocal.mp3", "title":"凱人聲", "noteSrc":"json/portOjisan4.json" }
 ]
