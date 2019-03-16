@@ -30,7 +30,6 @@ var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
 var windowx = window.innerWidth*0.95;
 var windowy = window.innerHeight*0.6;
 var zeroAtPx = windowx*0.2;
-var blacklineOffset=0;
 var msPerPx = msPerFrame/pixPerFrame
 var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
 var historyMs = zeroAtPx/pixPerFrame*msPerFrame
@@ -61,14 +60,17 @@ function playPauseAudio() {
 
 
 var myRects = [];//all static things to be drawn is here
-function resetStaticObjects(rp)
+
+var blacklinerect;
+function resetStaticObjects(rp=null)
 {
 	myRects.length=0;
 	for(i =0;i<windowy/noteThickness;i++)
 	{
 		myRects.push(new rectangle(windowx,1,'orange',0,windowy-noteThickness*i));
 	}
-	myRects.push(new rectangle(1,windowy,'black',zeroAtPx+blacklineOffset,0));//this is the time = 0 bar
+	blacklinerect=new rectangle(1,windowy,'black',zeroAtPx,0);
+	myRects.push(blacklinerect);//this is the time = 0 bar
 	pitchOffset = rp;
 }
 
@@ -207,7 +209,7 @@ function updateGameArea() {
 	<button onclick="refreshList()" type="button">Refresh songs</button>
 </p>
 <button id ="playbutton" onclick="playPauseAudio()" disabled = "true" type="button">Play/Pause Karaoke</button>
-<button onclick="blacklineOffset-=5;" type="button">shift black line LEFT</button><button onclick="blacklineOffset+=5;" type="button">shift black line RIGHT</button>
+<button onclick="blacklinerect.x-=5;" type="button">shift black line LEFT</button><button onclick="blacklinerect.x+=5;" type="button">shift black line RIGHT</button>
 
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
