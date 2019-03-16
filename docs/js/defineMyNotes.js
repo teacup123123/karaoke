@@ -16,7 +16,7 @@ function loadNotes()
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
-	music.onload=function(){
+	aud.onload=function(){
 		document.getElementById("playbutton").disabled=false;
 	}
 	
