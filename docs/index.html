@@ -144,7 +144,7 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 			this.past='passed';
 			if(this.label.startsWith('轉調 to'))
 			{
-				fifthSignature = parseInt(note.label.slice(-2,-1));
+				fifthSignature = parseInt(note.lyric.slice(-2,-1));
 				for(i=0;i<myNotes.length;i++)
 				{
 					var rect_=myNotes[i].rect.col
