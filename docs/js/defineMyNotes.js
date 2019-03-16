@@ -16,7 +16,7 @@ function loadNotes()
 	
 	
 	//document.body.removeChild(aud)
-	if aud !===null
+	if(aud !== null)
 	{
 		aud.pause()
 		document.body.removeChild(aud)
