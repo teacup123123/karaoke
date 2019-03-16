@@ -52,8 +52,18 @@ function loadNotes()
 					{
 						case 2:
 							//tone change
-							fifthSignature=parseInt(note.lyric)
-							beatlyric = "轉調"
+							
+							var interv;
+							interv = setInterval(function(){
+								if(progress>note.start)
+								{
+									fifthSignature=parseInt(note.lyric)
+									clearInterval(interv)
+								}
+							},100)
+							
+							
+							beatlyric = "轉調 to"+parseInt(note.lyric)
 							break
 						case 0:
 							break

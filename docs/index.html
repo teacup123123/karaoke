@@ -209,7 +209,10 @@ function updateGameArea() {
 	<button onclick="refreshList()" type="button">Refresh songs</button>
 </p>
 <button id ="playbutton" onclick="playPauseAudio()" disabled = "true" type="button">Play/Pause Karaoke</button>
-<button onclick="blacklinerect.x-=5;" type="button">shift black line LEFT</button><button onclick="blacklinerect.x+=5;" type="button">shift black line RIGHT</button>
+
+<button onclick="blacklinerect.x-=5;document.getElementById('dial').text=blacklinerect.x;" type="button">shift black line LEFT</button>
+<div id = 'dial' style="text-align:left;width:40px;">0</div>
+<button onclick="blacklinerect.x+=5;document.getElementById('dial').text=blacklinerect.x;" type="button">shift black line RIGHT</button>
 
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
