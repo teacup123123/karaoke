@@ -148,9 +148,9 @@ function rectangle(width, height, color, x, y,label='',isNote = false) {
 				for(i=0;i<myNotes.length;i++)
 				{
 					var rect_=myNotes[i].rect.col
-					var color = pitchColor(myNotes[i].pitch)
-					rect_.colorNeutral=color[0]
-					rect_.colorActive=color[1]
+					var color_ = pitchColor(myNotes[i].pitch)
+					rect_.colorNeutral=color_[0]
+					rect_.colorActive=color_[1]
 				}
 			}
 			
