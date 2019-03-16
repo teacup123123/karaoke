@@ -27,7 +27,7 @@ function loadNotes()
 			pitchOffset = gotmyNotes.referencePitch;
 			
 			for (index = 0; index < gotmyNotes.notes.length; ++index) {
-				var note = gotmyNotes[index];
+				var note = gotmyNotes.notes[index];
 				myNotes.push(new myNote(note.start, note.end,note.pitch-gotmyNotes.referencePitch,note.lyric))
 			}
 			
