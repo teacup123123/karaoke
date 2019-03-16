@@ -15,7 +15,7 @@ function loadNotes()
 	var songEntry = songList[list.selectedIndex];
 	
 	
-	document.body.removeChild(aud)
+	//document.body.removeChild(aud)
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
