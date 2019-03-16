@@ -16,6 +16,11 @@ function loadNotes()
 	
 	
 	//document.body.removeChild(aud)
+	if aud !===null
+	{
+		aud.pause()
+		document.body.removeChild(aud)
+	}
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
