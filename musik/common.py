@@ -63,7 +63,7 @@ def fifthdict(fifthnum: int):
     return dict(items)
 
 
-def pitchFromXmlNotation(pitchstr: str):
+def pitchFromXmlNotation(pitchstr: str,natural=False):
     '''
     returns 0 for C2
     half tone = 1
@@ -77,7 +77,10 @@ def pitchFromXmlNotation(pitchstr: str):
     if strlist[0] == 'drum':
         return -1
 
-    fifth = fifthdict(int(strlist[0]))
+    if natural:
+        fifth = fifthdict(0)
+    else:
+        fifth = fifthdict(int(strlist[0]))
     note = fifth[strlist[1]]+ int(strlist[2])*12
     alteration = int(strlist[3]) if len(strlist)==4 else 0
 
@@ -159,7 +162,7 @@ def findParts(root: ET.Element):
                                 lyr = ''
                             note = (start,
                                     start + dur,
-                                    pitchFromXmlNotation(pitch),
+                                    pitchFromXmlNotation(pitch,True),
                                     lyr,
                                     True if tied is not None and tied.attrib['type'] == 'start' else False)
                             vocal_lines_in_part[voice.text].append(note)

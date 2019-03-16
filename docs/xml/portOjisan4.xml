@@ -38,7 +38,7 @@
     <lyric-font font-family="FreeSerif" font-size="11" />
     </defaults>
   <credit page="1">
-    <credit-words default-x="595.44" default-y="1683.36" font-size="24" justify="center" valign="top">beat</credit-words>
+    <credit-words default-x="595.44" default-y="1626.67" font-size="24" justify="center" valign="top">beat</credit-words>
     </credit>
   <part-list>
     <score-part id="P5">
@@ -56,16 +56,16 @@
         </midi-instrument>
       </score-part></part-list>
   <part id="P5">
-    <measure number="1" width="127.72">
+    <measure number="1" width="138.17">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>62.805601708995965</per-minute>
+            <per-minute>45.04596527068437</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="62.805601708995965" />
+        <sound tempo="45.04596527068437" />
         </direction><print>
         <staff-layout number="1">
           <staff-distance>65.00</staff-distance>
@@ -91,55 +91,55 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="2" width="54.31">
+    <measure number="2" width="64.76">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.9154334038055</per-minute>
+            <per-minute>80.18181818181824</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.9154334038055" />
+        <sound tempo="80.18181818181824" />
         </direction><note>
         <rest />
         <duration>16</duration>
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="3" width="54.31">
+    <measure number="3" width="64.76">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.65081276339552</per-minute>
+            <per-minute>79.91543340380542</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.65081276339552" />
+        <sound tempo="79.91543340380542" />
         </direction><note>
         <rest />
         <duration>16</duration>
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="4" width="54.31">
+    <measure number="4" width="64.76">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>80.44998479781093</per-minute>
+            <per-minute>79.65081276339548</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="80.44998479781093" />
+        <sound tempo="79.65081276339548" />
         </direction><note>
         <rest />
         <duration>16</duration>
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="5" width="169.29">
+    <measure number="5" width="179.74">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -162,7 +162,23 @@
         <type>quarter</type>
         </note>
       </measure>
-    <measure number="6" width="80.59">
+    <measure number="6" width="91.04">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>79.12679425837325</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="79.12679425837325" />
+        </direction><note>
+        <rest />
+        <duration>16</duration>
+        <voice>1</voice>
+        </note>
+      </measure>
+    <measure number="7" width="72.32">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -178,66 +194,23 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="7" width="61.88">
+    <measure number="8" width="179.74">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.12679425837317</per-minute>
+            <per-minute>79.12679425837335</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.12679425837317" />
+        <sound tempo="79.12679425837335" />
         </direction><note>
         <rest />
         <duration>16</duration>
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="8" width="169.29">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>78.8673621460506</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="78.8673621460506" />
-        </direction><note>
-        <rest />
-        <duration>16</duration>
-        <voice>1</voice>
-        </note>
-      </measure>
-    <measure number="9" width="84.09">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380566</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="79.91543340380566" />
-        </direction><note>
-        <rest />
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        </note>
-      <note default-x="34.04" default-y="-460.00">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      </measure>
-    <measure number="10" width="158.51">
+    <measure number="9" width="97.40">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -247,221 +220,24 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="79.91543340380537" />
-        </direction><note default-x="17.86" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>16</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#38647;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="11" width="88.77">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380575</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="79.91543340380575" />
-        </direction><note default-x="18.22" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
+        </direction><note>
+        <rest />
         <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#39791;</text>
-          </lyric>
         </note>
-      <note default-x="52.69" default-y="-475.00">
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#38647;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="12" width="140.87">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181789</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="80.18181818181789" />
-        </direction><note default-x="17.86" default-y="-480.00">
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>16</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#25289;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="13" width="88.77">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>79.65081276339558</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="79.65081276339558" />
-        </direction><note default-x="18.22" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#39791;</text>
-          </lyric>
-        </note>
-      <note default-x="52.69" default-y="-480.00">
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#38647;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="14" width="140.87">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181789</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="80.18181818181789" />
-        </direction><note default-x="17.86" default-y="-490.00">
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>16</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#25289;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="15" width="151.91">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181868</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="80.18181818181868" />
-        </direction><note default-x="18.22" default-y="-460.00">
+      <note default-x="44.09" default-y="-521.04">
         <pitch>
           <step>E</step>
           <octave>4</octave>
           </pitch>
-        <duration>4</duration>
+        <duration>8</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>quarter</type>
         <stem>up</stem>
-        <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12395;</text>
-          </lyric>
-        </note>
-      <note default-x="51.24" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12428;</text>
-          </lyric>
-        </note>
-      <note default-x="84.26" default-y="-475.00">
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12406;</text>
-          </lyric>
-        </note>
-      <note default-x="117.29" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12428;</text>
-          </lyric>
         </note>
       </measure>
-    <measure number="16" width="233.81">
+    <measure number="10" width="234.73">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -471,7 +247,241 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="79.91543340380557" />
-        </direction><note default-x="20.78" default-y="-480.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-496.67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>16</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#38647;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="11" width="118.76">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80.18181818181809</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="80.18181818181809" />
+        </direction><note default-x="18.22" default-y="-496.67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#39791;</text>
+          </lyric>
+        </note>
+      <note default-x="67.69" default-y="-501.67">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#38647;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="12" width="170.87">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>79.91543340380575</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="79.91543340380575" />
+        </direction><note default-x="17.86" default-y="-506.67">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>16</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#25289;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="13" width="118.76">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80.18181818181809</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="80.18181818181809" />
+        </direction><note default-x="18.22" default-y="-496.67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#39791;</text>
+          </lyric>
+        </note>
+      <note default-x="67.69" default-y="-506.67">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#38647;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="14" width="170.87">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>79.91543340380557</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="79.91543340380557" />
+        </direction><note default-x="17.86" default-y="-516.67">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>16</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#25289;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="15" width="181.90">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>79.65081276339538</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="79.65081276339538" />
+        </direction><note default-x="18.22" default-y="-486.67">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#12395;</text>
+          </lyric>
+        </note>
+      <note default-x="58.74" default-y="-496.67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#12428;</text>
+          </lyric>
+        </note>
+      <note default-x="99.26" default-y="-501.67">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#12406;</text>
+          </lyric>
+        </note>
+      <note default-x="139.78" default-y="-496.67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-33.45">
+          <syllabic>single</syllabic>
+          <text>&#12428;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="16" width="288.06">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80.44998479781084</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="80.44998479781084" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-544.25">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -486,17 +496,17 @@
           </lyric>
         </note>
       </measure>
-    <measure number="17" width="203.33">
+    <measure number="17" width="214.27">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380557</per-minute>
+            <per-minute>79.91543340380575</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380557" />
-        </direction><note default-x="18.22" default-y="-460.00">
+        <sound tempo="79.91543340380575" />
+        </direction><note default-x="18.22" default-y="-524.25">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -511,7 +521,7 @@
           <text>&#25289;</text>
           </lyric>
         </note>
-      <note default-x="54.85" default-y="-465.00">
+      <note default-x="58.30" default-y="-529.25">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -527,7 +537,7 @@
           <text>&#25289;</text>
           </lyric>
         </note>
-      <note default-x="86.95" default-y="-460.00">
+      <note default-x="90.40" default-y="-524.25">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -543,7 +553,7 @@
           <text>&#21737;</text>
           </lyric>
         </note>
-      <note default-x="119.05" default-y="-480.00">
+      <note default-x="122.50" default-y="-544.25">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -558,7 +568,7 @@
           <text>&#39791;</text>
           </lyric>
         </note>
-      <note default-x="155.67" default-y="-475.00">
+      <note default-x="162.58" default-y="-539.25">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -574,36 +584,7 @@
           </lyric>
         </note>
       </measure>
-    <measure number="18" width="178.79">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>79.9154334038052</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="79.9154334038052" />
-        </direction><note default-x="18.05" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>16</duration>
-        <tie type="start" />
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <notations>
-          <tied type="start" />
-          </notations>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#25289;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="19" width="80.57">
+    <measure number="18" width="189.73">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -613,32 +594,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="80.18181818181809" />
-        </direction><note default-x="13.80" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>16</duration>
-        <tie type="stop" />
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <notations>
-          <tied type="stop" />
-          </notations>
-        </note>
-      </measure>
-    <measure number="20" width="62.53">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>80.18181818181847</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="80.18181818181847" />
-        </direction><note default-x="17.86" default-y="-470.00">
+        </direction><note default-x="18.05" default-y="-534.25">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -657,17 +613,17 @@
           </lyric>
         </note>
       </measure>
-    <measure number="21" width="58.48">
+    <measure number="19" width="91.51">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380557</per-minute>
+            <per-minute>79.91543340380537</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380557" />
-        </direction><note default-x="13.80" default-y="-470.00">
+        <sound tempo="79.91543340380537" />
+        </direction><note default-x="13.80" default-y="-534.25">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -682,17 +638,71 @@
           </notations>
         </note>
       </measure>
-    <measure number="22" width="58.48">
+    <measure number="20" width="73.47">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.9154334038052</per-minute>
+            <per-minute>79.65081276339576</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.9154334038052" />
-        </direction><note default-x="13.80" default-y="-475.00">
+        <sound tempo="79.65081276339576" />
+        </direction><note default-x="17.86" default-y="-534.25">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>16</duration>
+        <tie type="start" />
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <tied type="start" />
+          </notations>
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+          <syllabic>single</syllabic>
+          <text>&#25289;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="21" width="69.42">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80.18181818181829</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="80.18181818181829" />
+        </direction><note default-x="13.80" default-y="-534.25">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>16</duration>
+        <tie type="stop" />
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <tied type="stop" />
+          </notations>
+        </note>
+      </measure>
+    <measure number="22" width="69.42">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80.18181818181847</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="80.18181818181847" />
+        </direction><note default-x="13.80" default-y="-539.25">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -711,17 +721,22 @@
           </lyric>
         </note>
       </measure>
-    <measure number="23" width="58.48">
+    <measure number="23" width="114.79">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>79.91543340380595</per-minute>
+            <per-minute>79.91543340380478</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="79.91543340380595" />
-        </direction><note default-x="13.80" default-y="-475.00">
+        <sound tempo="79.91543340380478" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-567.55">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -736,23 +751,23 @@
           </notations>
         </note>
       </measure>
-    <measure number="24" width="249.68">
+    <measure number="24" width="258.73">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>120.27272727272772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="120.27272727272772" />
         </direction><attributes>
         <time>
           <beats>3</beats>
           <beat-type>4</beat-type>
           </time>
         </attributes>
-      <note default-x="34.76" default-y="-470.00">
+      <note default-x="34.76" default-y="-562.55">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -768,17 +783,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="25" width="97.35">
+    <measure number="25" width="106.17">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.47621914509308</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="23.26" default-y="-470.00">
+        <sound tempo="119.47621914509308" />
+        </direction><note default-x="23.26" default-y="-562.55">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -794,7 +809,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="26" width="178.58">
+    <measure number="26" width="205.11">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -804,7 +819,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="120.27272727272715" />
-        </direction><note default-x="18.26" default-y="-480.00">
+        </direction><note default-x="18.26" default-y="-572.55">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -820,17 +835,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="27" width="97.35">
+    <measure number="27" width="106.17">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="23.26" default-y="-480.00">
+        <sound tempo="120.27272727272715" />
+        </direction><note default-x="23.26" default-y="-572.55">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -846,17 +861,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="28" width="187.14">
+    <measure number="28" width="204.93">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509422</per-minute>
+            <per-minute>119.87315010570833</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509422" />
-        </direction><note default-x="18.06" default-y="-490.00">
+        <sound tempo="119.87315010570833" />
+        </direction><note default-x="18.06" default-y="-582.55">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -872,17 +887,22 @@
           </notations>
         </note>
       </measure>
-    <measure number="29" width="105.55">
+    <measure number="29" width="160.31">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671594</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671594" />
-        </direction><note default-x="31.46" default-y="-490.00">
+        <sound tempo="119.87315010570777" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-602.30">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -898,7 +918,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="30" width="208.49">
+    <measure number="30" width="242.46">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -908,7 +928,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="119.87315010570833" />
-        </direction><note default-x="22.86" default-y="-485.00">
+        </direction><note default-x="22.86" default-y="-597.30">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -924,17 +944,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="31" width="125.92">
+    <measure number="31" width="161.38">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>120.27272727272772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
-        </direction><note default-x="25.26" default-y="-485.00">
+        <sound tempo="120.27272727272772" />
+        </direction><note default-x="25.26" default-y="-597.30">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -950,17 +970,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="32" width="229.24">
+    <measure number="32" width="251.59">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>120.27272727272772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
-        </direction><note default-x="18.46" default-y="-470.00">
+        <sound tempo="120.27272727272772" />
+        </direction><note default-x="18.46" default-y="-582.30">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -970,13 +990,111 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-22.40">
           <syllabic>single</syllabic>
           <text>&#30563;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="33" width="157.80">
+    <measure number="33" width="180.15">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>119.87315010570833</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="119.87315010570833" />
+        </direction><note>
+        <rest />
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        </note>
+      <note>
+        <rest />
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        </note>
+      <note default-x="94.49" default-y="-582.30">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-22.40">
+          <syllabic>single</syllabic>
+          <text>&#12389;</text>
+          </lyric>
+        </note>
+      <note default-x="122.59" default-y="-587.30">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-22.40">
+          <syllabic>single</syllabic>
+          <text>&#12427;</text>
+          </lyric>
+        </note>
+      <note default-x="149.77" default-y="-592.30">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-22.40">
+          <syllabic>single</syllabic>
+          <text>&#12427;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="34" width="281.19">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>119.87315010570833</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="119.87315010570833" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-577.35">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <dot />
+        <stem>up</stem>
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-23.45">
+          <syllabic>single</syllabic>
+          <text>&#30563;</text>
+          </lyric>
+        </note>
+      </measure>
+    <measure number="35" width="177.00">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -998,7 +1116,7 @@
         <voice>1</voice>
         <type>eighth</type>
         </note>
-      <note default-x="72.42" default-y="-470.00">
+      <note default-x="91.61" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1007,105 +1125,12 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#12389;</text>
           </lyric>
         </note>
-      <note default-x="100.52" default-y="-475.00">
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12427;</text>
-          </lyric>
-        </note>
-      <note default-x="127.42" default-y="-480.00">
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12427;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="34" width="217.57">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272772</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="120.27272727272772" />
-        </direction><note default-x="18.06" default-y="-480.00">
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <dot />
-        <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#30563;</text>
-          </lyric>
-        </note>
-      </measure>
-    <measure number="35" width="159.40">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272654</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="120.27272727272654" />
-        </direction><note>
-        <rest />
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        </note>
-      <note>
-        <rest />
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        </note>
-      <note default-x="74.02" default-y="-470.00">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
-          <syllabic>single</syllabic>
-          <text>&#12389;</text>
-          </lyric>
-        </note>
-      <note default-x="102.12" default-y="-465.00">
+      <note default-x="119.71" default-y="-562.35">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1115,12 +1140,12 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
-      <note default-x="129.02" default-y="-470.00">
+      <note default-x="146.61" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1130,23 +1155,23 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="36" width="210.28">
+    <measure number="36" width="236.62">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.67497719671594</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
-        </direction><note default-x="23.26" default-y="-470.00">
+        <sound tempo="120.67497719671594" />
+        </direction><note default-x="23.26" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1160,23 +1185,23 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#30563;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="37" width="165.43">
+    <measure number="37" width="183.03">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272654</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272654" />
-        </direction><note default-x="24.82" default-y="-470.00">
+        <sound tempo="119.87315010570777" />
+        </direction><note default-x="24.82" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1191,7 +1216,7 @@
           <tied type="stop" />
           </notations>
         </note>
-      <note default-x="66.65" default-y="-480.00">
+      <note default-x="84.24" default-y="-577.35">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -1200,12 +1225,12 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#27794;</text>
           </lyric>
         </note>
-      <note default-x="99.15" default-y="-475.00">
+      <note default-x="116.74" default-y="-572.35">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -1215,12 +1240,12 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#35498;</text>
           </lyric>
         </note>
-      <note default-x="132.05" default-y="-470.00">
+      <note default-x="149.64" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1230,23 +1255,23 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#37027;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="38" width="100.47">
+    <measure number="38" width="118.06">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509422</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509422" />
-        </direction><note default-x="18.22" default-y="-450.00">
+        <sound tempo="120.27272727272715" />
+        </direction><note default-x="18.22" default-y="-547.35">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1256,12 +1281,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#21477;</text>
           </lyric>
         </note>
-      <note default-x="52.79" default-y="-470.00">
+      <note default-x="60.34" default-y="-567.35">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1271,23 +1296,28 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.45">
           <syllabic>single</syllabic>
           <text>&#22238;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="39" width="90.54">
+    <measure number="39" width="145.70">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
-        </direction><note default-x="25.82" default-y="-475.00">
+        <sound tempo="119.87315010570893" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>66.05</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-580.91">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -1297,12 +1327,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#31572;</text>
           </lyric>
         </note>
-      <note default-x="57.38" default-y="-485.00">
+      <note default-x="104.09" default-y="-590.91">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -1314,17 +1344,17 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="40" width="213.08">
+    <measure number="40" width="229.97">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.47621914509308</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
-        </direction><note default-x="18.06" default-y="-450.00">
+        <sound tempo="119.47621914509308" />
+        </direction><note default-x="18.06" default-y="-555.91">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1334,23 +1364,23 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#25289;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="41" width="211.68">
+    <measure number="41" width="228.57">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>120.67497719671655</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
-        </direction><note default-x="20.86" default-y="-450.00">
+        <sound tempo="120.67497719671655" />
+        </direction><note default-x="20.86" default-y="-555.91">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1360,23 +1390,23 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>dai</text>
           </lyric>
         </note>
       </measure>
-    <measure number="42" width="212.92">
+    <measure number="42" width="229.81">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570833</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570833" />
-        </direction><note default-x="25.62" default-y="-460.00">
+        <sound tempo="119.87315010570893" />
+        </direction><note default-x="25.62" default-y="-565.91">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1387,12 +1417,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#31561;</text>
           </lyric>
         </note>
-      <note default-x="72.92" default-y="-460.00">
+      <note default-x="76.27" default-y="-565.91">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1403,12 +1433,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#33879;</text>
           </lyric>
         </note>
-      <note default-x="120.02" default-y="-445.00">
+      <note default-x="126.92" default-y="-550.91">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -1419,12 +1449,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#20182;</text>
           </lyric>
         </note>
-      <note default-x="165.67" default-y="-460.00">
+      <note default-x="177.56" default-y="-565.91">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1435,13 +1465,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#22238;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="43" width="144.94">
+    <measure number="43" width="161.83">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -1451,7 +1481,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="119.87315010570777" />
-        </direction><note default-x="25.82" default-y="-465.00">
+        </direction><note default-x="25.82" default-y="-570.91">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1461,12 +1491,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#20358;</text>
           </lyric>
         </note>
-      <note default-x="78.05" default-y="-460.00">
+      <note default-x="85.56" default-y="-565.91">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1476,23 +1506,28 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-19.00">
           <syllabic>single</syllabic>
           <text>&#22739;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="44" width="215.85">
+    <measure number="44" width="293.94">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
-        </direction><note default-x="26.46" default-y="-470.00">
+        <sound tempo="120.27272727272599" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-559.20">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1502,23 +1537,23 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#35201;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="45" width="222.37">
+    <measure number="45" width="262.84">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="18.26" default-y="-470.00">
+        <sound tempo="119.47621914509365" />
+        </direction><note default-x="18.26" default-y="-559.20">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1528,13 +1563,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#37070;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="46" width="218.69">
+    <measure number="46" width="259.16">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -1544,7 +1579,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="120.2727272727283" />
-        </direction><note default-x="23.22" default-y="-460.00">
+        </direction><note default-x="23.22" default-y="-549.20">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1555,12 +1590,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#37117;</text>
           </lyric>
         </note>
-      <note default-x="67.96" default-y="-465.00">
+      <note default-x="77.30" default-y="-554.20">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1571,12 +1606,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#21809;</text>
           </lyric>
         </note>
-      <note default-x="112.71" default-y="-465.00">
+      <note default-x="131.39" default-y="-554.20">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1587,12 +1622,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#25104;</text>
           </lyric>
         </note>
-      <note default-x="172.34" default-y="-470.00">
+      <note default-x="203.47" default-y="-559.20">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1603,23 +1638,23 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#24773;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="47" width="139.49">
+    <measure number="47" width="179.96">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="23.82" default-y="-470.00">
+        <sound tempo="120.27272727272599" />
+        </direction><note default-x="23.82" default-y="-559.20">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1629,12 +1664,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#27468;</text>
           </lyric>
         </note>
-      <note default-x="68.71" default-y="-465.00">
+      <note default-x="84.72" default-y="-554.20">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1644,23 +1679,28 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-13.60">
           <syllabic>single</syllabic>
           <text>&#22739;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="48" width="242.16">
+    <measure number="48" width="316.22">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.4762191450925</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.4762191450925" />
-        </direction><note default-x="26.86" default-y="-460.00">
+        <sound tempo="119.87315010570777" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="63.72" default-y="-564.06">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1673,12 +1713,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-23.60">
           <syllabic>single</syllabic>
           <text>&#38738;</text>
           </lyric>
         </note>
-      <note default-x="177.00" default-y="-460.00">
+      <note default-x="234.49" default-y="-564.06">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1700,17 +1740,17 @@
         <dot />
         </note>
       </measure>
-    <measure number="49" width="251.24">
+    <measure number="49" width="288.43">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671772</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671772" />
-        </direction><note default-x="25.82" default-y="-450.00">
+        <sound tempo="120.2727272727283" />
+        </direction><note default-x="25.82" default-y="-554.06">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -1720,12 +1760,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.60">
           <syllabic>single</syllabic>
           <text>&#27506;</text>
           </lyric>
         </note>
-      <note default-x="157.92" default-y="-450.00">
+      <note default-x="160.78" default-y="-554.06">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -1739,17 +1779,17 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="50" width="194.93">
+    <measure number="50" width="232.12">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>119.4762191450948</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
-        </direction><note default-x="18.06" default-y="-460.00">
+        <sound tempo="119.4762191450948" />
+        </direction><note default-x="18.06" default-y="-564.06">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -1759,13 +1799,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-23.60">
           <syllabic>single</syllabic>
           <text>&#20063;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="51" width="121.93">
+    <measure number="51" width="159.12">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -1775,7 +1815,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="120.27272727272599" />
-        </direction><note default-x="18.22" default-y="-480.00">
+        </direction><note default-x="18.22" default-y="-584.06">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -1785,12 +1825,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.60">
           <syllabic>single</syllabic>
           <text>&#24754;</text>
           </lyric>
         </note>
-      <note default-x="61.86" default-y="-480.00">
+      <note default-x="80.13" default-y="-584.06">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -1800,23 +1840,28 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-23.60">
           <syllabic>single</syllabic>
           <text>&#20663;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="52" width="220.22">
+    <measure number="52" width="285.35">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.27272727272715</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
-        </direction><note default-x="26.46" default-y="-480.00">
+        <sound tempo="120.27272727272715" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>77.25</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.08" default-y="-609.25">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -1826,23 +1871,23 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#26377;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="53" width="157.48">
+    <measure number="53" width="184.99">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
-        </direction><note default-x="26.46" default-y="-470.00">
+        <sound tempo="119.87315010570777" />
+        </direction><note default-x="26.46" default-y="-599.25">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1852,23 +1897,23 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#21029;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="54" width="181.34">
+    <measure number="54" width="208.85">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
-        </direction><note default-x="18.42" default-y="-485.00">
+        <sound tempo="119.87315010570777" />
+        </direction><note default-x="18.42" default-y="-614.25">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -1879,12 +1924,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#20320;</text>
           </lyric>
         </note>
-      <note default-x="18.42" default-y="-450.00">
+      <note default-x="18.42" default-y="-579.25">
         <chord />
         <pitch>
           <step>G</step>
@@ -1896,7 +1941,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="58.75" default-y="-485.00">
+      <note default-x="65.63" default-y="-614.25">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -1907,12 +1952,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#36996;</text>
           </lyric>
         </note>
-      <note default-x="58.75" default-y="-450.00">
+      <note default-x="65.63" default-y="-579.25">
         <chord />
         <pitch>
           <step>G</step>
@@ -1924,7 +1969,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="99.08" default-y="-470.00">
+      <note default-x="112.83" default-y="-599.25">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -1935,12 +1980,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#39000;</text>
           </lyric>
         </note>
-      <note default-x="99.08" default-y="-435.00">
+      <note default-x="112.83" default-y="-564.25">
         <chord />
         <pitch>
           <step>C</step>
@@ -1952,7 +1997,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="139.41" default-y="-485.00">
+      <note default-x="160.04" default-y="-614.25">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -1963,12 +2008,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#24847;</text>
           </lyric>
         </note>
-      <note default-x="139.41" default-y="-450.00">
+      <note default-x="160.04" default-y="-579.25">
         <chord />
         <pitch>
           <step>G</step>
@@ -1981,17 +2026,17 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="55" width="89.74">
+    <measure number="55" width="117.25">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
-        </direction><note default-x="24.66" default-y="-485.00">
+        <sound tempo="119.87315010570893" />
+        </direction><note default-x="24.66" default-y="-614.25">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -2001,157 +2046,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-28.60">
           <syllabic>single</syllabic>
           <text>&#21966;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="56" width="171.95">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="28.42" default-y="-485.00">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>12</duration>
-        <tie type="start" />
-        <voice>1</voice>
-        <type>quarter</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="start" />
-          </notations>
-        </note>
-      <note default-x="107.32" default-y="-485.00">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>6</duration>
-        <tie type="stop" />
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="stop" />
-          </notations>
-        </note>
-      <note>
-        <rest />
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        </note>
-      </measure>
-    <measure number="57" width="159.15">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="120.27272727272599" />
-        </direction><note default-x="15.62" default-y="-485.00">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>12</duration>
-        <tie type="start" />
-        <voice>1</voice>
-        <type>quarter</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="start" />
-          </notations>
-        </note>
-      <note default-x="94.52" default-y="-485.00">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>6</duration>
-        <tie type="stop" />
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="stop" />
-          </notations>
-        </note>
-      <note>
-        <rest />
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        </note>
-      </measure>
-    <measure number="58" width="117.83">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="119.47621914509365" />
-        </direction><note default-x="15.62" default-y="-460.00">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>12</duration>
-        <tie type="start" />
-        <voice>1</voice>
-        <type>quarter</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="start" />
-          </notations>
-        </note>
-      <note default-x="50.62" default-y="-460.00">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>6</duration>
-        <tie type="stop" />
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>up</stem>
-        <notations>
-          <tied type="stop" />
-          </notations>
-        </note>
-      <note>
-        <rest />
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        </note>
-      </measure>
-    <measure number="59" width="79.54">
+    <measure number="56" width="199.45">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -2161,7 +2062,156 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="120.27272727272715" />
-        </direction><note default-x="14.46" default-y="-470.00">
+        </direction><note default-x="28.42" default-y="-614.25">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>12</duration>
+        <tie type="start" />
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="start" />
+          </notations>
+        </note>
+      <note default-x="118.12" default-y="-614.25">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>6</duration>
+        <tie type="stop" />
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="stop" />
+          </notations>
+        </note>
+      <note>
+        <rest />
+        <duration>6</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        </note>
+      </measure>
+    <measure number="57" width="212.11">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>119.87315010570893</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="119.87315010570893" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="64.45" default-y="-525.25">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>12</duration>
+        <tie type="start" />
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="start" />
+          </notations>
+        </note>
+      <note default-x="144.73" default-y="-525.25">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>6</duration>
+        <tie type="stop" />
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="stop" />
+          </notations>
+        </note>
+      <note>
+        <rest />
+        <duration>6</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        </note>
+      </measure>
+    <measure number="58" width="121.96">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120.2727272727283</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="120.2727272727283" />
+        </direction><note default-x="15.62" default-y="-500.25">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>12</duration>
+        <tie type="start" />
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="start" />
+          </notations>
+        </note>
+      <note default-x="52.86" default-y="-500.25">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>6</duration>
+        <tie type="stop" />
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <notations>
+          <tied type="stop" />
+          </notations>
+        </note>
+      <note>
+        <rest />
+        <duration>6</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        </note>
+      </measure>
+    <measure number="59" width="83.68">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>119.87315010570545</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="119.87315010570545" />
+        </direction><note default-x="14.46" default-y="-510.25">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -2173,17 +2223,17 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="60" width="159.15">
+    <measure number="60" width="163.28">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.2727272727283</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.2727272727283" />
-        </direction><note default-x="15.62" default-y="-455.00">
+        <sound tempo="119.47621914509365" />
+        </direction><note default-x="15.62" default-y="-495.25">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -2197,12 +2247,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.97">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
-      <note default-x="94.52" default-y="-455.00">
+      <note default-x="95.90" default-y="-495.25">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -2225,17 +2275,17 @@
         <dot />
         </note>
       </measure>
-    <measure number="61" width="188.78">
+    <measure number="61" width="192.91">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.6749771967189</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
-        </direction><note default-x="18.42" default-y="-455.00">
+        <sound tempo="120.6749771967189" />
+        </direction><note default-x="18.42" default-y="-495.25">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -2251,12 +2301,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.97">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
-      <note default-x="114.68" default-y="-455.00">
+      <note default-x="116.05" default-y="-495.25">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -2283,22 +2333,22 @@
         <bar-style>light-light</bar-style>
         </barline>
       </measure>
-    <measure number="62" width="217.83">
+    <measure number="62" width="221.96">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="119.87315010570777" />
         </direction><attributes>
         <key>
           <fifths>1</fifths>
           </key>
         </attributes>
-      <note default-x="29.82" default-y="-450.00">
+      <note default-x="29.82" default-y="-490.25">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2314,17 +2364,22 @@
           </notations>
         </note>
       </measure>
-    <measure number="63" width="82.94">
+    <measure number="63" width="163.58">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="17.86" default-y="-450.00">
+        <sound tempo="120.27272727272599" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2340,16 +2395,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="64" width="169.83">
+    <measure number="64" width="182.14">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272599</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272599" />
+        <sound tempo="119.87315010570893" />
         </direction><note default-x="18.06" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2366,16 +2421,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="65" width="83.34">
+    <measure number="65" width="95.65">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272715</per-minute>
+            <per-minute>119.47621914509365</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272715" />
+        <sound tempo="119.47621914509365" />
         </direction><note default-x="18.26" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2392,16 +2447,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="66" width="202.50">
+    <measure number="66" width="214.81">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.27272727272599" />
         </direction><note default-x="18.06" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -2418,16 +2473,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="67" width="87.14">
+    <measure number="67" width="99.45">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
+        <sound tempo="120.2727272727283" />
         </direction><note default-x="22.06" default-y="-470.00">
         <pitch>
           <step>C</step>
@@ -2444,16 +2499,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="68" width="227.94">
+    <measure number="68" width="240.25">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509365</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509365" />
+        <sound tempo="119.87315010570777" />
         </direction><note default-x="23.26" default-y="-465.00">
         <pitch>
           <step>D</step>
@@ -2470,17 +2525,22 @@
           </notations>
         </note>
       </measure>
-    <measure number="69" width="128.28">
+    <measure number="69" width="188.89">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671655</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671655" />
-        </direction><note default-x="27.66" default-y="-465.00">
+        <sound tempo="120.2727272727283" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-465.00">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -2496,16 +2556,16 @@
           </notations>
         </note>
       </measure>
-    <measure number="70" width="262.02">
+    <measure number="70" width="264.09">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570545</per-minute>
+            <per-minute>119.47621914509133</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570545" />
+        <sound tempo="119.47621914509133" />
         </direction><note default-x="26.86" default-y="-450.00">
         <pitch>
           <step>G</step>
@@ -2516,13 +2576,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#30563;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="71" width="172.40">
+    <measure number="71" width="174.47">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -2544,7 +2604,7 @@
         <voice>1</voice>
         <type>eighth</type>
         </note>
-      <note default-x="87.02" default-y="-450.00">
+      <note default-x="89.09" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2553,12 +2613,12 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12389;</text>
           </lyric>
         </note>
-      <note default-x="115.12" default-y="-455.00">
+      <note default-x="117.19" default-y="-455.00">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -2569,12 +2629,12 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
-      <note default-x="142.02" default-y="-460.00">
+      <note default-x="144.09" default-y="-460.00">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -2584,22 +2644,22 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="72" width="213.89">
+    <measure number="72" width="215.97">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
+        <sound tempo="120.2727272727283" />
         </direction><note default-x="21.86" default-y="-460.00">
         <pitch>
           <step>E</step>
@@ -2610,22 +2670,22 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#30563;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="73" width="150.40">
+    <measure number="73" width="152.47">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914509597</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914509597" />
+        <sound tempo="119.87315010570893" />
         </direction><note>
         <rest />
         <duration>8</duration>
@@ -2638,7 +2698,7 @@
         <voice>1</voice>
         <type>eighth</type>
         </note>
-      <note default-x="65.02" default-y="-450.00">
+      <note default-x="67.09" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2647,12 +2707,12 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12389;</text>
           </lyric>
         </note>
-      <note default-x="93.12" default-y="-445.00">
+      <note default-x="95.19" default-y="-445.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -2662,12 +2722,12 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
-      <note default-x="120.02" default-y="-450.00">
+      <note default-x="122.09" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2677,23 +2737,28 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.45">
           <syllabic>single</syllabic>
           <text>&#12427;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="74" width="203.31">
+    <measure number="74" width="283.53">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.67497719671418</per-minute>
+            <per-minute>119.87315010570661</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.67497719671418" />
-        </direction><note default-x="21.86" default-y="-450.00">
+        <sound tempo="119.87315010570661" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-458.20">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2707,23 +2772,23 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#30563;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="75" width="185.82">
+    <measure number="75" width="201.71">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570777</per-minute>
+            <per-minute>119.87315010570893</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570777" />
-        </direction><note default-x="18.42" default-y="-450.00">
+        <sound tempo="119.87315010570893" />
+        </direction><note default-x="18.42" default-y="-458.20">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2738,7 +2803,7 @@
           <tied type="stop" />
           </notations>
         </note>
-      <note default-x="87.04" default-y="-460.00">
+      <note default-x="102.92" default-y="-468.20">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -2747,12 +2812,12 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#27794;</text>
           </lyric>
         </note>
-      <note default-x="119.54" default-y="-455.00">
+      <note default-x="135.42" default-y="-463.20">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -2763,12 +2828,12 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#35498;</text>
           </lyric>
         </note>
-      <note default-x="152.44" default-y="-450.00">
+      <note default-x="168.32" default-y="-458.20">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2778,23 +2843,23 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#37027;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="76" width="117.12">
+    <measure number="76" width="133.01">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.87315010570893</per-minute>
+            <per-minute>120.2727272727283</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.87315010570893" />
-        </direction><note default-x="21.82" default-y="-430.00">
+        <sound tempo="120.2727272727283" />
+        </direction><note default-x="21.82" default-y="-438.20">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -2804,12 +2869,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#21477;</text>
           </lyric>
         </note>
-      <note default-x="68.67" default-y="-450.00">
+      <note default-x="76.61" default-y="-458.20">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2819,23 +2884,23 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#22238;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="77" width="89.13">
+    <measure number="77" width="105.01">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>120.27272727272947</per-minute>
+            <per-minute>119.87315010570777</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120.27272727272947" />
-        </direction><note default-x="18.42" default-y="-455.00">
+        <sound tempo="119.87315010570777" />
+        </direction><note default-x="18.42" default-y="-463.20">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -2846,12 +2911,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#31572;</text>
           </lyric>
         </note>
-      <note default-x="52.97" default-y="-465.00">
+      <note default-x="60.91" default-y="-473.20">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -2863,17 +2928,17 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="78" width="256.76">
+    <measure number="78" width="272.64">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>119.47621914508903</per-minute>
+            <per-minute>120.27272727272599</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="119.47621914508903" />
-        </direction><note default-x="22.06" default-y="-430.00">
+        <sound tempo="120.27272727272599" />
+        </direction><note default-x="22.06" default-y="-438.20">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -2883,23 +2948,28 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.20">
           <syllabic>single</syllabic>
           <text>&#25289;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="79" width="220.67">
+    <measure number="79" width="324.84">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462772</per-minute>
+            <per-minute>121.07992678462652</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462772" />
-        </direction><note default-x="25.42" default-y="-430.00">
+        <sound tempo="121.07992678462652" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-430.00">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -2909,12 +2979,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>dai</text>
           </lyric>
         </note>
-      <note default-x="143.43" default-y="-435.00">
+      <note default-x="218.67" default-y="-435.00">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -2928,7 +2998,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="80" width="213.56">
+    <measure number="80" width="256.96">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -2949,12 +3019,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#31561;</text>
           </lyric>
         </note>
-      <note default-x="76.92" default-y="-440.00">
+      <note default-x="85.60" default-y="-440.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2965,12 +3035,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#33879;</text>
           </lyric>
         </note>
-      <note default-x="121.93" default-y="-440.00">
+      <note default-x="142.19" default-y="-440.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2981,12 +3051,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#20182;</text>
           </lyric>
         </note>
-      <note default-x="166.95" default-y="-440.00">
+      <note default-x="198.77" default-y="-440.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -2997,13 +3067,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#22238;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="81" width="103.94">
+    <measure number="81" width="147.34">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3023,12 +3093,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#20358;</text>
           </lyric>
         </note>
-      <note default-x="63.08" default-y="-440.00">
+      <note default-x="84.78" default-y="-440.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -3038,13 +3108,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#22739;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="82" width="223.36">
+    <measure number="82" width="266.76">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3064,13 +3134,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#35201;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="83" width="196.65">
+    <measure number="83" width="279.78">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3080,7 +3150,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.86" default-y="-450.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3090,13 +3165,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#37070;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="84" width="272.44">
+    <measure number="84" width="294.24">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3117,12 +3192,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#37117;</text>
           </lyric>
         </note>
-      <note default-x="85.46" default-y="-445.00">
+      <note default-x="91.47" default-y="-445.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -3133,12 +3208,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#21809;</text>
           </lyric>
         </note>
-      <note default-x="148.76" default-y="-445.00">
+      <note default-x="158.53" default-y="-445.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -3149,12 +3224,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#25104;</text>
           </lyric>
         </note>
-      <note default-x="209.80" default-y="-450.00">
+      <note default-x="225.58" default-y="-450.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3165,13 +3240,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#24773;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="85" width="129.46">
+    <measure number="85" width="151.26">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3191,12 +3266,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#27468;</text>
           </lyric>
         </note>
-      <note default-x="60.15" default-y="-445.00">
+      <note default-x="70.25" default-y="-445.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -3206,13 +3281,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#22739;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="86" width="248.83">
+    <measure number="86" width="270.62">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3235,12 +3310,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1">
           <syllabic>single</syllabic>
           <text>&#38738;</text>
           </lyric>
         </note>
-      <note default-x="183.19" default-y="-440.00">
+      <note default-x="193.42" default-y="-440.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -3262,17 +3337,22 @@
         <dot />
         </note>
       </measure>
-    <measure number="87" width="232.86">
+    <measure number="87" width="331.97">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462652</per-minute>
+            <per-minute>121.07992678462772</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462652" />
-        </direction><note default-x="25.42" default-y="-430.00">
+        <sound tempo="121.07992678462772" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-430.00">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -3282,12 +3362,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.60">
           <syllabic>single</syllabic>
           <text>&#27506;</text>
           </lyric>
         </note>
-      <note default-x="150.16" default-y="-435.00">
+      <note default-x="223.71" default-y="-435.00">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -3301,16 +3381,16 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="88" width="191.25">
+    <measure number="88" width="229.59">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462534</per-minute>
+            <per-minute>121.07992678462652</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="121.07992678462534" />
+        <sound tempo="121.07992678462652" />
         </direction><note default-x="22.66" default-y="-440.00">
         <pitch>
           <step>B</step>
@@ -3321,13 +3401,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.60">
           <syllabic>single</syllabic>
           <text>&#20063;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="89" width="134.17">
+    <measure number="89" width="172.51">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3347,12 +3427,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.60">
           <syllabic>single</syllabic>
           <text>&#24754;</text>
           </lyric>
         </note>
-      <note default-x="77.09" default-y="-460.00">
+      <note default-x="96.26" default-y="-460.00">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3362,13 +3442,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-3.60">
           <syllabic>single</syllabic>
           <text>&#20663;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="90" width="223.49">
+    <measure number="90" width="261.83">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3388,13 +3468,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-3.60">
           <syllabic>single</syllabic>
           <text>&#26377;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="91" width="159.06">
+    <measure number="91" width="268.45">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3404,7 +3484,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.86" default-y="-450.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.19" default-y="-478.48">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3414,13 +3499,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#21029;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="92" width="212.16">
+    <measure number="92" width="260.22">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3430,7 +3515,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="18.42" default-y="-465.00">
+        </direction><note default-x="18.42" default-y="-493.48">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3441,12 +3526,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#20320;</text>
           </lyric>
         </note>
-      <note default-x="18.42" default-y="-430.00">
+      <note default-x="18.42" default-y="-458.48">
         <chord />
         <pitch>
           <step>D</step>
@@ -3458,7 +3543,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="64.57" default-y="-465.00">
+      <note default-x="78.47" default-y="-493.48">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3469,12 +3554,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#36996;</text>
           </lyric>
         </note>
-      <note default-x="64.57" default-y="-430.00">
+      <note default-x="78.47" default-y="-458.48">
         <chord />
         <pitch>
           <step>D</step>
@@ -3486,7 +3571,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="118.27" default-y="-450.00">
+      <note default-x="138.52" default-y="-478.48">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3497,12 +3582,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#39000;</text>
           </lyric>
         </note>
-      <note default-x="118.27" default-y="-415.00">
+      <note default-x="138.52" default-y="-443.48">
         <chord />
         <pitch>
           <step>G</step>
@@ -3514,7 +3599,7 @@
         <dot />
         <stem>up</stem>
         </note>
-      <note default-x="164.41" default-y="-465.00">
+      <note default-x="198.57" default-y="-493.48">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3525,12 +3610,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#24847;</text>
           </lyric>
         </note>
-      <note default-x="164.41" default-y="-430.00">
+      <note default-x="198.57" default-y="-458.48">
         <chord />
         <pitch>
           <step>D</step>
@@ -3543,7 +3628,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="93" width="86.54">
+    <measure number="93" width="134.60">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3553,7 +3638,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="21.46" default-y="-465.00">
+        </direction><note default-x="21.46" default-y="-493.48">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3563,13 +3648,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>&#21966;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="94" width="284.56">
+    <measure number="94" width="332.62">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3579,7 +3664,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="50.22" default-y="-450.00">
+        </direction><note default-x="50.22" default-y="-478.48">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3590,12 +3675,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>sha</text>
           </lyric>
         </note>
-      <note default-x="104.35" default-y="-455.00">
+      <note default-x="116.29" default-y="-483.48">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3608,12 +3693,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>sha</text>
           </lyric>
         </note>
-      <note default-x="140.85" default-y="-450.00">
+      <note default-x="157.58" default-y="-478.48">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3625,12 +3710,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>de</text>
           </lyric>
         </note>
-      <note default-x="174.69" default-y="-450.00">
+      <note default-x="198.88" default-y="-478.48">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3641,12 +3726,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>gu</text>
           </lyric>
         </note>
-      <note default-x="228.82" default-y="-465.00">
+      <note default-x="264.95" default-y="-493.48">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3657,13 +3742,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-8.60">
           <syllabic>single</syllabic>
           <text>niang</text>
           </lyric>
         </note>
       </measure>
-    <measure number="95" width="224.75">
+    <measure number="95" width="319.36">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3673,7 +3758,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="21.22" default-y="-450.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.55" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3684,12 +3774,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>dai</text>
           </lyric>
         </note>
-      <note default-x="57.64" default-y="-455.00">
+      <note default-x="131.74" default-y="-487.58">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3702,12 +3792,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>yi</text>
           </lyric>
         </note>
-      <note default-x="93.94" default-y="-450.00">
+      <note default-x="168.04" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3719,12 +3809,12 @@
         <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>duo</text>
           </lyric>
         </note>
-      <note default-x="137.84" default-y="-450.00">
+      <note default-x="211.94" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3734,13 +3824,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>hua</text>
           </lyric>
         </note>
       </measure>
-    <measure number="96" width="220.46">
+    <measure number="96" width="249.74">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3750,7 +3840,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="29.02" default-y="-455.00">
+        </direction><note default-x="29.02" default-y="-487.58">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3762,12 +3852,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>deng</text>
           </lyric>
         </note>
-      <note default-x="76.92" default-y="-450.00">
+      <note default-x="83.80" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3778,12 +3868,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>zhe</text>
           </lyric>
         </note>
-      <note default-x="124.23" default-y="-440.00">
+      <note default-x="138.58" default-y="-472.58">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -3795,7 +3885,7 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         </note>
-      <note default-x="171.55" default-y="-450.00">
+      <note default-x="193.36" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3806,13 +3896,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>hui</text>
           </lyric>
         </note>
       </measure>
-    <measure number="97" width="141.44">
+    <measure number="97" width="170.71">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3822,7 +3912,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="25.82" default-y="-455.00">
+        </direction><note default-x="25.82" default-y="-487.58">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3833,12 +3923,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>lai</text>
           </lyric>
         </note>
-      <note default-x="76.49" default-y="-460.00">
+      <note default-x="89.50" default-y="-492.58">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -3848,13 +3938,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>ya</text>
           </lyric>
         </note>
       </measure>
-    <measure number="98" width="226.81">
+    <measure number="98" width="256.09">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3864,7 +3954,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="26.82" default-y="-450.00">
+        </direction><note default-x="26.82" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3875,12 +3965,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>xiao</text>
           </lyric>
         </note>
-      <note default-x="76.12" default-y="-455.00">
+      <note default-x="76.31" default-y="-487.58">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3893,12 +3983,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>xiao</text>
           </lyric>
         </note>
-      <note default-x="117.02" default-y="-450.00">
+      <note default-x="117.21" default-y="-482.58">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3910,12 +4000,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>de</text>
           </lyric>
         </note>
-      <note default-x="155.32" default-y="-465.00">
+      <note default-x="155.51" default-y="-497.58">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -3926,7 +4016,7 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>zui</text>
           </lyric>
@@ -3939,7 +4029,7 @@
         <dot />
         </note>
       </measure>
-    <measure number="99" width="219.63">
+    <measure number="99" width="296.01">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -3949,7 +4039,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="28.42" default-y="-450.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.55" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3960,12 +4055,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>cang</text>
           </lyric>
         </note>
-      <note default-x="73.56" default-y="-455.00">
+      <note default-x="139.38" default-y="-483.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -3978,12 +4073,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>bu</text>
           </lyric>
         </note>
-      <note default-x="112.46" default-y="-450.00">
+      <note default-x="178.28" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -3995,12 +4090,12 @@
         <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>zhu</text>
           </lyric>
         </note>
-      <note default-x="155.96" default-y="-450.00">
+      <note default-x="221.78" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4010,13 +4105,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>hua</text>
           </lyric>
         </note>
       </measure>
-    <measure number="100" width="272.44">
+    <measure number="100" width="290.69">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4026,7 +4121,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.42" default-y="-455.00">
+        </direction><note default-x="24.42" default-y="-483.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4038,12 +4133,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>dou</text>
           </lyric>
         </note>
-      <note default-x="85.46" default-y="-450.00">
+      <note default-x="90.59" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4054,12 +4149,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>chang</text>
           </lyric>
         </note>
-      <note default-x="148.76" default-y="-450.00">
+      <note default-x="156.76" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4070,12 +4165,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>cheng</text>
           </lyric>
         </note>
-      <note default-x="209.80" default-y="-460.00">
+      <note default-x="222.92" default-y="-488.26">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4086,13 +4181,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>qing</text>
           </lyric>
         </note>
       </measure>
-    <measure number="101" width="148.23">
+    <measure number="101" width="166.48">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4102,7 +4197,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="23.82" default-y="-460.00">
+        </direction><note default-x="23.82" default-y="-488.26">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4112,12 +4207,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>ge</text>
           </lyric>
         </note>
-      <note default-x="72.21" default-y="-455.00">
+      <note default-x="79.41" default-y="-483.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4128,13 +4223,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>ya</text>
           </lyric>
         </note>
       </measure>
-    <measure number="102" width="224.45">
+    <measure number="102" width="242.70">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4144,7 +4239,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="27.22" default-y="-450.00">
+        </direction><note default-x="27.22" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4155,12 +4250,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>qing</text>
           </lyric>
         </note>
-      <note default-x="77.92" default-y="-455.00">
+      <note default-x="77.92" default-y="-483.26">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4173,12 +4268,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>shan</text>
           </lyric>
         </note>
-      <note default-x="117.82" default-y="-450.00">
+      <note default-x="117.82" default-y="-478.26">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4190,12 +4285,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>yi</text>
           </lyric>
         </note>
-      <note default-x="153.32" default-y="-465.00">
+      <note default-x="153.32" default-y="-493.26">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -4206,7 +4301,7 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>jiu</text>
           </lyric>
@@ -4219,7 +4314,7 @@
         <dot />
         </note>
       </measure>
-    <measure number="103" width="264.54">
+    <measure number="103" width="354.62">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4229,7 +4324,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="25.82" default-y="-450.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.55" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4240,12 +4340,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>sui</text>
           </lyric>
         </note>
-      <note default-x="79.12" default-y="-455.00">
+      <note default-x="139.85" default-y="-485.67">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4258,12 +4358,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>yue</text>
           </lyric>
         </note>
-      <note default-x="122.82" default-y="-450.00">
+      <note default-x="183.55" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4275,12 +4375,12 @@
         <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>ru</text>
           </lyric>
         </note>
-      <note default-x="169.92" default-y="-450.00">
+      <note default-x="230.65" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4290,13 +4390,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>chang</text>
           </lyric>
         </note>
       </measure>
-    <measure number="104" width="194.93">
+    <measure number="104" width="224.27">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4306,7 +4406,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="18.42" default-y="-455.00">
+        </direction><note default-x="18.42" default-y="-485.67">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4318,12 +4418,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>ye</text>
           </lyric>
         </note>
-      <note default-x="61.42" default-y="-450.00">
+      <note default-x="69.48" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4335,7 +4435,7 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         </note>
-      <note default-x="107.32" default-y="-440.00">
+      <note default-x="120.55" default-y="-470.67">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -4347,7 +4447,7 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         </note>
-      <note default-x="150.32" default-y="-450.00">
+      <note default-x="171.61" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4358,13 +4458,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>ta</text>
           </lyric>
         </note>
       </measure>
-    <measure number="105" width="140.69">
+    <measure number="105" width="170.03">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4374,7 +4474,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="21.62" default-y="-455.00">
+        </direction><note default-x="21.62" default-y="-485.67">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4385,12 +4485,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>bei</text>
           </lyric>
         </note>
-      <note default-x="73.83" default-y="-460.00">
+      <note default-x="86.87" default-y="-490.67">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4400,13 +4500,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>shang</text>
           </lyric>
         </note>
       </measure>
-    <measure number="106" width="217.63">
+    <measure number="106" width="246.97">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4416,7 +4516,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.42" default-y="-450.00">
+        </direction><note default-x="24.42" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4427,12 +4527,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>you</text>
           </lyric>
         </note>
-      <note default-x="73.40" default-y="-455.00">
+      <note default-x="81.93" default-y="-485.67">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4445,12 +4545,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>qing</text>
           </lyric>
         </note>
-      <note default-x="114.70" default-y="-450.00">
+      <note default-x="123.23" default-y="-480.67">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4462,12 +4562,12 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>de</text>
           </lyric>
         </note>
-      <note default-x="151.20" default-y="-465.00">
+      <note default-x="159.73" default-y="-495.67">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -4478,7 +4578,7 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-1.00">
           <syllabic>single</syllabic>
           <text>ren</text>
           </lyric>
@@ -4491,7 +4591,7 @@
         <dot />
         </note>
       </measure>
-    <measure number="107" width="163.66">
+    <measure number="107" width="226.84">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4501,7 +4601,12 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="23.62" default-y="-465.00">
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="86.55" default-y="-559.37">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -4512,12 +4617,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>bie</text>
           </lyric>
         </note>
-      <note default-x="67.32" default-y="-465.00">
+      <note default-x="130.25" default-y="-559.37">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -4528,12 +4633,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>wen</text>
           </lyric>
         </note>
-      <note default-x="105.62" default-y="-450.00">
+      <note default-x="168.55" default-y="-544.37">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4543,13 +4648,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>ta</text>
           </lyric>
         </note>
       </measure>
-    <measure number="108" width="195.83">
+    <measure number="108" width="196.08">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4559,7 +4664,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="18.42" default-y="-455.00">
+        </direction><note default-x="18.42" default-y="-549.37">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4571,12 +4676,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">begin</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>&#20320;</text>
           </lyric>
         </note>
-      <note default-x="61.59" default-y="-450.00">
+      <note default-x="61.67" default-y="-544.37">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4587,12 +4692,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>&#36996;</text>
           </lyric>
         </note>
-      <note default-x="107.89" default-y="-450.00">
+      <note default-x="107.97" default-y="-544.37">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -4603,12 +4708,12 @@
         <dot />
         <stem>up</stem>
         <beam number="1">continue</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>&#39000;</text>
           </lyric>
         </note>
-      <note default-x="151.06" default-y="-460.00">
+      <note default-x="151.23" default-y="-554.37">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -4619,13 +4724,13 @@
         <dot />
         <stem>up</stem>
         <beam number="1">end</beam>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>&#24847;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="109" width="89.74">
+    <measure number="109" width="89.99">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4635,7 +4740,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.66" default-y="-455.00">
+        </direction><note default-x="24.66" default-y="-549.37">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4646,13 +4751,13 @@
         <type>half</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.22" default-y="-70.00" number="1" relative-y="-5.80">
           <syllabic>single</syllabic>
           <text>&#21966;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="110" width="163.19">
+    <measure number="110" width="163.44">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4668,7 +4773,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="111" width="129.20">
+    <measure number="111" width="129.45">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4684,7 +4789,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="112" width="87.99">
+    <measure number="112" width="88.24">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4700,7 +4805,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="113" width="101.61">
+    <measure number="113" width="101.85">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4716,7 +4821,28 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="114" width="119.39">
+    <measure number="114" width="202.77">
+      <direction placement="above">
+        <direction-type>
+          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>121.07992678462652</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="121.07992678462652" />
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note>
+        <rest />
+        <duration>24</duration>
+        <voice>1</voice>
+        </note>
+      </measure>
+    <measure number="115" width="128.07">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4732,7 +4858,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="115" width="114.42">
+    <measure number="116" width="95.19">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4748,7 +4874,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="116" width="81.54">
+    <measure number="117" width="117.59">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4764,23 +4890,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="117" width="103.94">
-      <direction placement="above">
-        <direction-type>
-          <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>121.07992678462652</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="121.07992678462652" />
-        </direction><note>
-        <rest />
-        <duration>24</duration>
-        <voice>1</voice>
-        </note>
-      </measure>
-    <measure number="118" width="125.74">
+    <measure number="118" width="139.39">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4797,7 +4907,7 @@
         <type>eighth</type>
         <dot />
         </note>
-      <note default-x="37.83" default-y="-455.00">
+      <note default-x="42.22" default-y="-491.70">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4812,12 +4922,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-4.36">
           <syllabic>single</syllabic>
           <text>&#22165;</text>
           </lyric>
         </note>
-      <note default-x="65.29" default-y="-455.00">
+      <note default-x="74.08" default-y="-491.70">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4836,7 +4946,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="119" width="84.23">
+    <measure number="119" width="97.88">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4846,7 +4956,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="10.36" default-y="-455.00">
+        </direction><note default-x="10.36" default-y="-491.70">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -4863,7 +4973,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="120" width="92.39">
+    <measure number="120" width="106.04">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4879,7 +4989,7 @@
         <voice>1</voice>
         </note>
       </measure>
-    <measure number="121" width="95.32">
+    <measure number="121" width="108.97">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4889,7 +4999,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="18.42" default-y="-435.00">
+        </direction><note default-x="18.42" default-y="-471.70">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -4899,12 +5009,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-4.36">
           <syllabic>single</syllabic>
           <text>&#20358;</text>
           </lyric>
         </note>
-      <note default-x="56.07" default-y="-435.00">
+      <note default-x="62.89" default-y="-471.70">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -4914,13 +5024,13 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-4.36">
           <syllabic>single</syllabic>
           <text>&#19990;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="122" width="134.83">
+    <measure number="122" width="235.61">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4930,14 +5040,19 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note>
+        </direction><print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note>
         <rest />
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
         <dot />
         </note>
-      <note default-x="43.45" default-y="-465.00">
+      <note default-x="123.41" default-y="-479.22">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -4954,7 +5069,7 @@
           <tied type="start" />
           </notations>
         </note>
-      <note default-x="72.74" default-y="-465.00">
+      <note default-x="160.28" default-y="-479.22">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -4973,7 +5088,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="123" width="78.89">
+    <measure number="123" width="107.28">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -4983,7 +5098,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="13.80" default-y="-465.00">
+        </direction><note default-x="13.80" default-y="-479.22">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -5000,7 +5115,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="124" width="101.32">
+    <measure number="124" width="129.71">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -5010,7 +5125,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="18.42" default-y="-470.00">
+        </direction><note default-x="18.42" default-y="-484.22">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -5020,12 +5135,12 @@
         <type>quarter</type>
         <dot />
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.65">
           <syllabic>single</syllabic>
           <text>&#20320;</text>
           </lyric>
         </note>
-      <note default-x="59.07" default-y="-465.00">
+      <note default-x="73.26" default-y="-479.22">
         <pitch>
           <step>D</step>
           <alter>1</alter>
@@ -5037,13 +5152,13 @@
         <dot />
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.65">
           <syllabic>single</syllabic>
           <text>&#36996;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="125" width="107.51">
+    <measure number="125" width="135.90">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -5053,7 +5168,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="25.86" default-y="-450.00">
+        </direction><note default-x="25.86" default-y="-464.22">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -5067,13 +5182,13 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.94" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.94" default-y="-70.00" number="1" relative-y="-28.65">
           <syllabic>single</syllabic>
           <text>&#39000;</text>
           </lyric>
         </note>
       </measure>
-    <measure number="126" width="89.74">
+    <measure number="126" width="118.14">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -5083,7 +5198,7 @@
           </direction-type>
         <staff>1</staff>
         <sound tempo="121.07992678462652" />
-        </direction><note default-x="24.66" default-y="-450.00">
+        </direction><note default-x="24.66" default-y="-464.22">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -5099,7 +5214,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="127" width="128.01">
+    <measure number="127" width="156.40">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
@@ -5116,7 +5231,7 @@
         <type>eighth</type>
         <dot />
         </note>
-      <note default-x="38.97" default-y="-455.00">
+      <note default-x="46.90" default-y="-469.22">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -5131,12 +5246,12 @@
         <notations>
           <tied type="start" />
           </notations>
-        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-40.75">
+        <lyric default-x="6.58" default-y="-70.00" number="1" relative-y="-28.65">
           <syllabic>single</syllabic>
           <text>&#39791;</text>
           </lyric>
         </note>
-      <note default-x="67.00" default-y="-455.00">
+      <note default-x="82.87" default-y="-469.22">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -5155,17 +5270,17 @@
           </notations>
         </note>
       </measure>
-    <measure number="128" width="84.45">
+    <measure number="128" width="112.84">
       <direction placement="above">
         <direction-type>
           <metronome default-x="-30.12" parentheses="no" relative-y="20.00">
             <beat-unit>quarter</beat-unit>
-            <per-minute>112.85813683066837</per-minute>
+            <per-minute>112.41909183477352</per-minute>
             </metronome>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="112.85813683066837" />
-        </direction><note default-x="10.36" default-y="-455.00">
+        <sound tempo="112.41909183477352" />
+        </direction><note default-x="10.36" default-y="-469.22">
         <pitch>
           <step>F</step>
           <alter>1</alter>
