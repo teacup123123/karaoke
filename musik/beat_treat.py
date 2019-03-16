@@ -8,25 +8,41 @@ import json
 
 
 def adjustPartTempo(part, tempos):
-    for measure in part:
+    for mi,measure in enumerate(part):
         measure: ET.Element = measure
 
         direction: ET.Element = measure.find('direction')
-        if direction is None:
-            direction = ET.SubElement(measure, 'direction')
+        if direction is not None:
+            measure.remove(direction)
+        # if direction is None:
+        #     direction = ET.SubElement(measure, 'direction')
 
-        sound: ET.Element = direction.find('sound')
-        if sound is None:
-            sound = ET.SubElement(direction, 'sound')
+        toadd=\
+        '''<direction placement="above">
+        <direction-type>
+          <metronome parentheses="no" default-x="-30.12" relative-y="20.00">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>{tempo}</per-minute>
+            </metronome>
+          </direction-type>
+        <staff>1</staff>
+        <sound tempo="{tempo}"/>
+        </direction>'''.format(tempo = float(tempos[mi])) if mi<np.size(tempos) else tempos[-1]
 
-        sound.attrib['tempo'] = "100"
+        measure.insert(0,ET.fromstring(toadd))
+
+        # sound: ET.Element = direction.find('sound')
+        # if sound is None:
+        #     sound = ET.SubElement(direction, 'sound')
+
+        # sound.attrib['tempo'] = '{0:.3f}'
 
 if __name__ == '__main__':
 
     ## load data
     etree = cm.loadxml('../score/0316.musicxml')
     root: ET.Element = etree.getroot()
-    beat_lines, vocal_lines, part_list = cm.findParts(root)
+    beat_lines, vocal_lines, part_list, measureBeats = cm.findParts(root)
     rate, data = wav.read('../treated/corrected0314/beat.wav')
     batchname = 'portOjisan'
 
@@ -67,11 +83,14 @@ if __name__ == '__main__':
 
     _ = zip([b[0] for b in beat_lines], ts)
     beat, beatInMs = zip(*_)
+    beat = np.insert(beat,0,0)
+    beatInMs = np.insert(beatInMs,0,0)
 
     f2 = interpolate.interp1d(beat, beatInMs, kind='cubic')
 
 
-    def beat2time(beatnum):
+    def beat2timemono(beatnum):
+        assert type(beatnum) in [int, float, np.int32, np.int64]
         if beatnum >= beat[-1]:
             endingSlope = (beatInMs[-1] - beatInMs[-2]) / (beat[-1] - beat[-2])
             return (beatnum - beat[-1]) * endingSlope + beatInMs[-1]
@@ -80,6 +99,13 @@ if __name__ == '__main__':
             if type(_) == np.ndarray and np.size(_) == 1:
                 _ = float(_)
             return _
+
+
+    def beat2time(beatnums):
+        if type(beatnums) == int or type(beatnums) == float:
+            return beat2timemono(beatnums)
+        else:
+            return np.array([beat2timemono(bn) for bn in beatnums])
 
 
     # referencePitch = cm.pitchFromXmlNotation('0 C ')
@@ -96,12 +122,15 @@ if __name__ == '__main__':
         ref = 12 * np.floor(minPitch / 12.)
         content = {'notes': notesForJson, 'referencePitch': int(ref),
                    'range': maxPitch - ref + 4, 'vocalmin': minPitch, 'vocalmax': maxPitch}
-        content = json.dumps(content)
-        with open('../docs/json/{}{}.json'.format(batchname, vli), 'w', encoding='utf8') as f:
+        content = json.dumps(content,ensure_ascii=False)
+        with open('../docs/json/{}{}.json'.format(batchname, vli), 'w', encoding='utf') as f:
             f.write(content)
 
-
-    adjustPartTempo(part_list[0], [])
+    measureBeats = np.array(measureBeats)
+    measureTimes = beat2time(measureBeats)
+    qnpms=np.diff(measureBeats)/np.diff(measureTimes)
+    bpm = qnpms*1000*60/8
+    adjustPartTempo(part_list[0], bpm)
     etree.write('../docs/xml/{}.xml'.format(batchname))
 
     part_listnew = [ET.fromstring(ET.tostring(x)) for x in part_list]
@@ -115,11 +144,10 @@ if __name__ == '__main__':
             pldec.remove(x)
 
         for p in root.findall('part'):
-            if p.tag=='part':
+            if p.tag == 'part':
                 root.remove(p)
 
-        adjustPartTempo(part, [])
-
+        adjustPartTempo(part, bpm)
 
         pldec.insert(0, partDec)
         root.insert(5, part)

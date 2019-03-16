@@ -23,9 +23,12 @@ function loadNotes()
 		if (this.readyState == 4 && this.status == 200) {
 			var gotmyNotes = JSON.parse(this.responseText);
 			
-			for (index = 0; index < gotmyNotes.length; ++index) {
+			noteThickness = windowy/gotmyNotes.range;
+			pitchOffset = gotmyNotes.referencePitch;
+			
+			for (index = 0; index < gotmyNotes.notes.length; ++index) {
 				var note = gotmyNotes[index];
-				myNotes.push(new myNote(note.start, note.end,note.pitch,note.lyric))
+				myNotes.push(new myNote(note.start, note.end,note.pitch-gotmyNotes.referencePitch,note.lyric))
 			}
 			
 		}

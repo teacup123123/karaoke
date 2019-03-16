@@ -100,6 +100,7 @@ def findParts(root: ET.Element):
 
     vocal_lines = []
     beat_lines = []
+    measureBeats = []
     part_list = root.findall('part')
     for part in part_list:
         part: ET.Element  # containing many measures
@@ -109,6 +110,7 @@ def findParts(root: ET.Element):
         globaltime = 0
         keySig = 'x'
         for measi, meas in enumerate(meas_list):
+            measureBeats.append(globaltime)
             meas: ET.Element
             for _ in meas.findall('direction'):
                 meas.remove(_)
@@ -198,7 +200,7 @@ def findParts(root: ET.Element):
         else:
             vocal_lines.extend(vocal_lines_in_part)
     print('plucked all info from sheet')
-    return beat_lines, vocal_lines,part_list
+    return beat_lines, vocal_lines,part_list, measureBeats
 
 
 if __name__ == '__main__':
