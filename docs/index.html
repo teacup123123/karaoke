@@ -248,7 +248,7 @@ function shiftBL(qtty)
 		var dial = document.getElementById('dial')
 		blSlider.oninput = function() {
 			dial.textContent=blSlider.value;
-			blacklinerect.x=zeroAtPx+float(blSlider.value)	;
+			blacklinerect.x=zeroAtPx+parseFloat(blSlider.value);
 		}
 	</script>
 </div>
