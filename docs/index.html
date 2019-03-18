@@ -239,9 +239,19 @@ function shiftBL(qtty)
 	dial.textContent=blacklinerect.x-zeroAtPx;
 }
 </script>
-<button onclick="shiftBL(4);" type="button">shift black line LEFT</button>
-<div id = 'dial' style="text-align:left;width:40px;">0</div>
-<button onclick="shiftBL(-4);" type="button">shift black line RIGHT</button>
+
+<div class="slidecontainer">
+	<input type="range" min="-500" max="500" value="0" class="slider" id="blSlider"></br>
+	position of the line:<code id = 'dial'>0</code>
+	<script>
+		var blSlider = document.getElementById("blSlider")
+		var dial = document.getElementById('dial')
+		blSlider.oninput = function() {
+			dial.textContent=blSlider.value;
+			blacklinerect.x=zeroAtPx-this.value;
+		}
+	</script>
+</div>
 
 <!--
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
