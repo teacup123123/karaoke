@@ -1,6 +1,33 @@
 var progress = 0
 var myNotes = [];//{timeStart : 0, timeEnd :10, pitch :4 ,lyric: "miao"}]; time in miliseconds
 
+
+function detectPlayable(listOfAudios)//detects that every audio in the list has finished loading
+{
+	//This function works!
+	(function()
+	{
+		var CancelYourself;
+		
+		CancelYourself = setInterval(function(){
+			var allgood = true;
+			for(i=0;i<listOfAudios.length;i++)
+			{
+				if(listOfAudios[i].readyState!=4)
+				{
+					allgood=false
+				}
+			}
+			if(allgood)
+			{
+				document.getElementById("playbutton").disabled=false;
+				clearInterval(CancelYourself);
+			}
+		},500)
+	})();
+}
+
+
 function loadNotes()
 {
 	
@@ -24,11 +51,8 @@ function loadNotes()
 	aud = document.createElement("AUDIO");
 	aud.src = songEntry.src;
 	document.getElementById("playbutton").disabled=true;
-	aud.onload=function(){
-		document.getElementById("playbutton").disabled=false;
-	}
-	aud.load()
-	document.body.appendChild(aud)
+	aud.load();
+	detectPlayable([aud]);
 	fifthSignature=0
 	
 	

@@ -1,3 +1,4 @@
+import clipboard
 import pyautogui
 import time as time
 import re
@@ -34,7 +35,24 @@ def autotype(english_str:str,type=0):
     pyautogui.confirm('you have 5 secs')
     time.sleep(5)
 
+
+
     pyautogui.typewrite(pinyin)
 
+def autocopy(string:str):
+
+    pyautogui.confirm('you have 5 secs')
+    time.sleep(5)
+
+    for c in string:
+        if c==' ':
+            pyautogui.typewrite(c)
+        else:
+            clipboard.copy(c)
+            pyautogui.hotkey('ctrl', 'v')
+
+
+
 if __name__ == '__main__':
-    autotype('hello')
+    # autotype('hello')
+    autocopy('this is the power of pasting')

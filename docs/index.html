@@ -20,7 +20,12 @@ canvas {
 <script src="js/definePitchColor.js"></script>
 <script>
 
-var aud = document.createElement("AUDIO");;//TODO this needs to be dynamic
+var aud = document.createElement("AUDIO");//TODO this needs to be dynamic
+aud.src = "songs/portOjisan/new.mp3";
+aud.load();
+
+detectPlayable([aud])
+
 
 var gamePaused = true
 var gamePausedAtMs = Date.now()
@@ -247,6 +252,6 @@ function shiftBL(qtty)
 </div>
 <script>
 refreshList();
-loadNotes();</script>
+</script>
 </body>
 </html>

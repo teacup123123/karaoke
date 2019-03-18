@@ -40,7 +40,7 @@ def adjustPartTempo(part, tempos):
 if __name__ == '__main__':
 
     ## load data
-    etree = cm.loadxml('../score/0316.musicxml')
+    etree = cm.loadxml('../score/0316.xml')
     root: ET.Element = etree.getroot()
     beat_lines, vocal_lines, part_list, measureBeats = cm.findParts(root)
     rate, data = wav.read('../treated/corrected0314/beat.wav')
