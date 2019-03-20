@@ -112,7 +112,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if(_.start<=windowx-zeroAtPx){
+			if(_.start-progress<=windowx-zeroAtPx){
 				break;
 			}
 		}
@@ -124,7 +124,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if(_.start>windowx-zeroAtPx){
+			if(_.start-progress>windowx-zeroAtPx){
 				break;
 			}
 		}
@@ -136,15 +136,19 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if(_.start<=windowx-zeroAtPx){
+			if(_.start-progress<=windowx-zeroAtPx&&_.start-progress>=0){//completely visible... no change
 				break;
+			}
+			else if(_.start-progress>windowx-zeroAtPx)
+			{
+				break;//stops at first invisible in the future
 			}
 		}
 		for(i=scanEnd;i<myNotes.length;i++)
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if(_.start>windowx-zeroAtPx){
+			if(_.start-progress>windowx-zeroAtPx){
 				break;
 			}
 		}
