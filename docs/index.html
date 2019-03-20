@@ -92,7 +92,7 @@ var myGameArea = {
     }
 }
 
-var rescan = true;
+var rescan = true;//should be unset should there be a skip
 var scanStart = 0;
 var scanEnd = 0;
 
@@ -101,6 +101,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	if (!gamePaused)
 	{
 		progress = Date.now()-gameStartedAtMs;
+		updateFifth(prog);
 	}
     myGameArea.clear();
 	
@@ -125,6 +126,21 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		}
 		
 		rescan = false;
+	}
+	else{
+		for(i=scanStart;i<myNotes.length;i++)
+		{
+			scanStart=i;
+			var _ = myNotes[i];
+			if(_.start<=windowx-zeroAtPx){break;}
+		}
+		for(i=scanEnd;i<myNotes.length;i++)
+		{
+			scanEnd=i;
+			var _ = myNotes[i];
+			if(_.start>windowx-zeroAtPx){break;}
+		}
+		
 	}
 	
 	
