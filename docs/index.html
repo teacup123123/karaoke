@@ -136,10 +136,11 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if(_.start-progress<=windowx-zeroAtPx&&_.start-progress>=-zeroAtPx){//completely visible... no change
+			var diffpx = (_.start-progress)/msPerPx;
+			if(diffpx<=windowx-zeroAtPx&&diffpx>=-zeroAtPx){//completely visible... no change
 				break;
 			}
-			else if(_.start-progress>windowx-zeroAtPx)
+			else if(diffpx>windowx-zeroAtPx)
 			{
 				break;//stops at first invisible in the future
 			}
@@ -155,6 +156,11 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		
 	}
 	
+	
+    for (i = 0; i < myRects.length; i += 1) {
+		r = myRects[i]
+		r.update()
+    }
 	
 	//Scan between the two indexes
 	for (i=scanStart; i<scanEnd; i+=1)
@@ -175,14 +181,10 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		//else in the canvas
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progress)/msPerPx;
-		note.rect.height = noteThickness;
+		note.rect.height = noteThickness*1.1;
 		note.rect.update()
 	}
 	
-    for (i = 0; i < myRects.length; i += 1) {
-		r = myRects[i]
-		r.update()
-    }
 }
 
 
