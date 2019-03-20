@@ -136,7 +136,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if(_.start-progress<=windowx-zeroAtPx&&_.start-progress>=0){//completely visible... no change
+			if(_.start-progress<=windowx-zeroAtPx&&_.start-progress>=-zeroAtPx){//completely visible... no change
 				break;
 			}
 			else if(_.start-progress>windowx-zeroAtPx)
@@ -175,6 +175,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		//else in the canvas
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progress)/msPerPx;
+		note.rect.height = noteThickness;
 		note.rect.update()
 	}
 	
