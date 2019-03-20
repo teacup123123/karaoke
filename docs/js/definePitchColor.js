@@ -75,7 +75,7 @@ function myNote(startms, endms,pitch,lyric='')
 	{
 		var _ = parseInt(lyric.slice(-2));
 		
-		changeFifthAt.push([this.start,_])
+		changeFifthAt.push([startms,_])
 		
 	}
 	this.start= startms;
