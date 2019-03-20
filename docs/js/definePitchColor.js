@@ -87,7 +87,7 @@ function myNote(startms, endms,pitch,lyric='')
 		var fun0 = function(){return pitchColor(pitch)[0]}
 		var fun1 = function(){return pitchColor(pitch)[1]}
 		var fun2 = function(){return pitchColor(pitch)[2]}
-		new rectangle(this.duration/msPerPx, noteThickness, function(){return [fun0,fun1,fun2]}, windowx, windowy , lyric, true)
+		return new rectangle(this.duration/msPerPx, noteThickness, function(){return [fun0,fun1,fun2]}, windowx, windowy , lyric, true)
 	})()
 }
 
