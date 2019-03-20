@@ -35,6 +35,7 @@ function loadNotes()
 	gamePausedAtMs = Date.now()
 	gameStartedAtMs = Date.now()
 	progress = 0;
+	rescan = true;
 	myNotes = [];
 	
 	var list = document.getElementById("list");

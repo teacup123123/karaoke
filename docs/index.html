@@ -165,7 +165,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	for (i=scanStart; i<scanEnd; i+=1)
 	{
 		note = myNotes[i]
-		if(progress + latestMs < note.start)
+		/*if(progress + latestMs < note.start)
 		{
 			break;
 		}
@@ -175,7 +175,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 			myNotes.splice(i,1)
 			i-=1
 			continue;
-		}
+		}*/
 		
 		//else in the canvas
 		note.rect.y = windowy-note.pitch*noteThickness;
