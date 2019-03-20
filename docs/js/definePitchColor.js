@@ -109,7 +109,7 @@ var pitchOffset =0;
 
 function addfifth(i,j)
 {
-	return i+7*j
+	return i-7*j
 }
 
 var fifthSignature = 0

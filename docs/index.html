@@ -136,11 +136,10 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			var diffpx = (_.start-progress)/msPerPx;
-			if(diffpx<=windowx-zeroAtPx&&diffpx>=-zeroAtPx){//completely visible... no change
+			if((_.start-progress)/msPerPx<=windowx-zeroAtPx&&(_.end-progress)/msPerPx>=-zeroAtPx){//completely visible... no change
 				break;
 			}
-			else if(diffpx>windowx-zeroAtPx)
+			else if((_.start-progress)/msPerPx>windowx-zeroAtPx)
 			{
 				break;//stops at first invisible in the future
 			}
@@ -149,7 +148,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if((_.end-progress)/msPerPx>windowx-zeroAtPx){
+			if((_.start-progress)/msPerPx>windowx-zeroAtPx){
 				break;
 			}
 		}
