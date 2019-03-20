@@ -23,7 +23,6 @@ canvas {
 var aud = document.createElement("AUDIO");//TODO this needs to be dynamic
 aud.src = "songs/portOjisan/new.mp3";
 aud.load();
-
 detectPlayable([aud])
 
 
@@ -40,12 +39,6 @@ var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
 var historyMs = zeroAtPx/pixPerFrame*msPerFrame
 var noteThickness = windowy/24
 
-
-function changetime() {
-    var para = document.getElementById("info")
-	para.innerText=Date.now()
-}
-
 function playPauseAudio() { 
 	if(gamePaused)
 	{
@@ -60,8 +53,6 @@ function playPauseAudio() {
 		gamePausedAtMs = Date.now();
 	}
 } 
-
-
 
 
 var myRects = [];//all static things to be drawn is here
@@ -101,88 +92,11 @@ var myGameArea = {
     }
 }
 
-function rectangle(width, height, color, x, y,label='',isNote = false) {
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-	this.setx0 = function(z){this.x = z};
-	this.sety0 = function(z){this.x = z};
-	this.setx1 = function(z){this.width = z-this.x};
-	this.sety1 = function(z){this.height = z-this.y};
-	this.label = label
-	
-	if(Array.isArray(color))
-	{
-		this.colorNeutral=color[0]
-		this.colorActive=color[1]
-	}
-	else
-	{
-		this.colorNeutral=color
-		this.colorActive=color
-	}
-	this.isNote = isNote
-	
-	this.past = 'not yet'
-	
-    this.update = function() {
-		if(this.isInside())
-		{
-			ctx = myGameArea.context;
-			if(this.isNote&&this.isPlaying())
-			{
-				ctx.fillStyle = this.colorActive;
-			}
-			else
-			{
-				ctx.fillStyle = this.colorNeutral;
-			}
-			ctx.fillRect(this.x, this.y, this.width, this.height);
-			ctx.fillStyle = "white";
-			if(color.length>2) ctx.fillStyle = color[2];//override
-			ctx.font = "20px Arial";
-			ctx.fillText(this.label, this.x, this.y+noteThickness);
-		}        
-		if(this.past=='not yet'&&this.x<=blacklinerect.x)
-		{
-			this.past='passed';
-			if(this.label.startsWith('轉調 to'))
-			{
-				fifthSignature = parseInt(note.lyric.slice(-2));
-				for(i=0;i<myNotes.length;i++)
-				{
-					var rect_=myNotes[i].rect.col
-					var color_ = pitchColor(myNotes[i].pitch)
-					rect_.colorNeutral=color_[0]
-					rect_.colorActive=color_[1]
-				}
-			}
-			
-		}
-    }
-	this.isInside = function(){//0 for no and 1 for inside
-		return (this.x<=windowx)||(this.x+this.width>=0)||(this.y+this.height>=0)||(this.y<=windowy);
-	}
-	this.isPlaying = function()
-	{
-		return (this.x<=blacklinerect.x)&&(this.x+this.width>=blacklinerect.x)
-	}
-}
 
-function myNote(startms, endms,pitch,lyric='', textcol='white')
-{
-	this.start= startms;
-	this.end= endms;
-	this.duration = endms-startms;
-	this.pitch = pitch;
-	this.lyric = lyric;
-	color = pitchColor(pitch)
-	color.push(textcol)
-	this.rect = new rectangle(this.duration/msPerPx, noteThickness, color, windowx, windowy , lyric, true)
-}
+var scanStart = 0;
+var scanEnd = 1;
 
-function updateGameArea() {
+function updateGameArea() {//assumes myNotes sorted by start time
     myGameArea.frameNo += 1;
 	if (!gamePaused)
 	{
@@ -190,7 +104,20 @@ function updateGameArea() {
 	}
     myGameArea.clear();
 	
-    for (i = 0; i < myNotes.length; i += 1) {//assumes myNotes sorted by start time
+	//Scan global variable scanStart, breaks at first visible!
+	while(true)
+	{
+		var _temp = myNotes[scanStart];
+	}
+	
+	
+	//Scan global variable scanEnd, breaks at first invisible!
+	scanEnd-=1;
+	
+	
+	//Scan between the two indexes
+	for (i=scanStart; i<scanEnd; i+=1)
+	{
 		note = myNotes[i]
 		if(progress + latestMs < note.start)
 		{
@@ -208,9 +135,8 @@ function updateGameArea() {
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progress)/msPerPx;
 		note.rect.update()
-		
-		
-    }
+	}
+	
     for (i = 0; i < myRects.length; i += 1) {
 		r = myRects[i]
 		r.update()
