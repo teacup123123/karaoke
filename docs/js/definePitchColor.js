@@ -73,7 +73,7 @@ function myNote(startms, endms,pitch,lyric='')
 {
 	if(lyric.startsWith('轉調 to'))
 	{
-		var _ = parseInt(note.lyric.slice(-2));
+		var _ = parseInt(lyric.slice(-2));
 		
 		changeFifthAt.push([this.startms,_])
 		
