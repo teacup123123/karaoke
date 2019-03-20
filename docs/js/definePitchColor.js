@@ -77,13 +77,6 @@ function myNote(startms, endms,pitch,lyric='')
 		
 		changeFifthAt.push([this.startms,_])
 		
-		for(i=0;i<myNotes.length;i++)
-		{
-			var rect_=myNotes[i].rect.col
-			var color_ = pitchColor(myNotes[i].pitch)
-			rect_.colorNeutral=color_[0]
-			rect_.colorActive=color_[1]
-		}
 	}
 	this.start= startms;
 	this.end= endms;
