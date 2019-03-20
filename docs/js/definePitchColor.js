@@ -92,7 +92,7 @@ function myNote(startms, endms,pitch,lyric='')
 }
 
 var _pitch_dict = {};
-_pitch_dict[3-3] = ['crimson','red','white'];//C
+_pitch_dict[3-3] = ['red','lightcoral','white'];//C
 _pitch_dict[4-3] = ['darkred','grey','white'];//C~D
 _pitch_dict[5-3] = ['darkorange','orange','black'];//D
 _pitch_dict[6-3] = ['firebrick','grey','white'];//D~E
