@@ -149,7 +149,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if(_.start-progress>windowx-zeroAtPx){
+			if(diffpx>windowx-zeroAtPx){
 				break;
 			}
 		}
