@@ -92,11 +92,10 @@ var myGameArea = {
     }
 }
 
-
+var rescan = true;
 var scanStart = 0;
 var scanEnd = 1;
 
-alert('2')
 function updateGameArea() {//assumes myNotes sorted by start time
     myGameArea.frameNo += 1;
 	if (!gamePaused)
@@ -105,16 +104,28 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	}
     myGameArea.clear();
 	
-	//Scan global variable scanStart, breaks at first visible!
-	while(true)
+	if(rescan)
 	{
-		var _ = myNotes[scanStart];
-		break;
+		//Scan global variable scanStart, breaks at first visible!
+		for(i=0;i<myNotes.length;i++)
+		{
+			scanStart=i;
+			var _ = myNotes[i];
+			if(_.start<=windowx-zeroAtPx){break;}
+		}
+		
+		
+		//Scan global variable scanEnd, breaks at first invisible!
+		
+		for(i=scanStart;i<myNotes.length;i++)
+		{
+			scanEnd=i;
+			var _ = myNotes[i];
+			if(_.start>windowx-zeroAtPx){break;}
+		}
+		
+		rescan = false;
 	}
-	
-	
-	//Scan global variable scanEnd, breaks at first invisible!
-	scanEnd-=1;
 	
 	
 	//Scan between the two indexes

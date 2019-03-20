@@ -91,9 +91,6 @@ function loadNotes()
 				}
 			}
 			
-			setTimeout(function(){
-				document.getElementById("playbutton").disabled=false;
-			}, 3000)
 			//document.getElementById("playbutton").disabled=false;
 			
 		}
