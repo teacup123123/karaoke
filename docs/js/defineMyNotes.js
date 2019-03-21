@@ -36,7 +36,7 @@ function loadNotes()
 	gameStartedAtMs = Date.now()
 	progress = 0;
 	rescan = true;
-	myNotes = [];
+	myNotes.length = 0;
 	
 	var list = document.getElementById("list");
 	var info = document.getElementById("info");
@@ -64,7 +64,7 @@ function loadNotes()
 			
 			noteThickness = windowy/gotmyNotes.range;
 			
-			info.innerHTML="loaded json"+songEntry.title;
+			info.innerHTML="loaded json "+songEntry.title;
 			
 			resetStaticObjects(gotmyNotes.referencePitch);
 			
