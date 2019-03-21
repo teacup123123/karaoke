@@ -32,6 +32,14 @@ keys = 'C,C#,D,D#,E,F,F#,G,G#,A,A#,B'.split(',')
 
 
 def absolute_notation(pitch):
+    '''
+    reference: absolute_notation(0)='C',0
+
+    half-tone=1
+
+    :param pitch: 0==c0
+    :return:absolute_notation(0)='C',0
+    '''
     octave = pitch // 12
     pitch = pitch % 12
 
@@ -39,34 +47,47 @@ def absolute_notation(pitch):
 
 
 def loadxml(path):
+    '''
+    path:str --> ET.tree element
+
+    :param path:
+    :return:
+    '''
     tree = ET.parse(path)
     return tree
 
 
 def loadLyr(file):
+    '''
+    path:str (splitable by whitespace characters) --> list of lyrics
+
+    :param file:
+    :return:
+    '''
     with open(file, encoding='utf8') as f:
-        pronounciation = f.readlines()
-        pronounciation = ''.join(pronounciation)
+        pronounciation = f.read(-1)
         pronounciation = pronounciation.split()
         return pronounciation
 
 
 def fifthdict(fifthnum: int):
-    pitchModulos = np.array([0,2,4,5,7,9,11],dtype=int)
-    pitchModulos = np.mod(pitchModulos + 7 * fifthnum,12)
+    pitchModulos = np.array([0, 2, 4, 5, 7, 9, 11], dtype=int)
+    pitchModulos = np.mod(pitchModulos + 7 * fifthnum, 12)
     pitchModulos = np.sort(pitchModulos)
-    if np.sign(fifthnum)<0 and pitchModulos[0]==1:
-        pitchModulos = np.roll(pitchModulos,1)
-        pitchModulos[0]-=12
+    if np.sign(fifthnum) < 0 and pitchModulos[0] == 1:
+        pitchModulos = np.roll(pitchModulos, 1)
+        pitchModulos[0] -= 12
 
-    items = zip('CDEFGAB',pitchModulos)
+    items = zip('CDEFGAB', pitchModulos)
     return dict(items)
 
 
-def pitchFromXmlNotation(pitchstr: str,natural=False):
+def pitchFromXmlNotation(pitchstr: str, natural=False):
     '''
     returns 0 for C2
+
     half tone = 1
+
     -1 used as drumbeat, whose lyrics change keys
 
     :param pitchstr:
@@ -81,13 +102,27 @@ def pitchFromXmlNotation(pitchstr: str,natural=False):
         fifth = fifthdict(0)
     else:
         fifth = fifthdict(int(strlist[0]))
-    note = fifth[strlist[1]]+ int(strlist[2])*12
-    alteration = int(strlist[3]) if len(strlist)==4 else 0
+    note = fifth[strlist[1]] + int(strlist[2]) * 12
+    alteration = int(strlist[3]) if len(strlist) == 4 else 0
 
     return note + alteration
 
 
 def findParts(root: ET.Element):
+    '''
+    ET.Element --> beat_lines, vocal_lines,part_list, measureBeats
+
+    beat_lines: list of tuples(start0, end0, pitch=-1, lyr0)
+
+    vocal_lines: list of list of tuples(start0, end0, pitch, lyr0)
+
+    part_list: iterable of ET.Element
+
+    measureBeats: list of global time at beginning of measure
+
+    :param root:
+    :return:
+    '''
     part_liste: ET.Element = root.find('part-list')
     part_list = part_liste.findall('score-part')
     found_beat_part_num = None
@@ -98,7 +133,7 @@ def findParts(root: ET.Element):
             print('found Finger Snap, using as beat')
             found_beat_part_num = score_part.attrib['id']
 
-            #delete this part from the xml tree since finger snap is not good
+            # delete this part from the xml tree since finger snap is not good
             part_liste.remove(score_part)
 
     vocal_lines = []
@@ -155,6 +190,7 @@ def findParts(root: ET.Element):
                                 pitch = ' '.join([keySig, step.text, octave.text, altertext])  # TODO
                             else:
                                 pitch = 'drum'
+                            pitch:str=pitch
 
                             if lyr is not None:
                                 lyr = lyr.text
@@ -162,7 +198,7 @@ def findParts(root: ET.Element):
                                 lyr = ''
                             note = (start,
                                     start + dur,
-                                    pitchFromXmlNotation(pitch,True),
+                                    pitchFromXmlNotation(pitch, True),
                                     lyr,
                                     True if tied is not None and tied.attrib['type'] == 'start' else False)
                             vocal_lines_in_part[voice.text].append(note)
@@ -198,12 +234,12 @@ def findParts(root: ET.Element):
         if part.attrib['id'] == found_beat_part_num:
             beat_lines = vocal_lines_in_part[0]
 
-            #delete this part from the xml tree since finger snap is not good
+            # delete this part from the xml tree since finger snap is not good
             root.remove(part)
         else:
             vocal_lines.extend(vocal_lines_in_part)
     print('plucked all info from sheet')
-    return beat_lines, vocal_lines,part_list, measureBeats
+    return beat_lines, vocal_lines, part_list, measureBeats
 
 
 if __name__ == '__main__':

@@ -37,14 +37,8 @@ def adjustPartTempo(part, tempos):
 
         # sound.attrib['tempo'] = '{0:.3f}'
 
-if __name__ == '__main__':
-
-    ## load data
-    etree = cm.loadxml('../score/0316.xml')
-    root: ET.Element = etree.getroot()
-    beat_lines, vocal_lines, part_list, measureBeats = cm.findParts(root)
-    rate, data = wav.read('../treated/corrected0314/beat.wav')
-    batchname = 'portOjisan'
+def analyze_beat(src,beat_lines):
+    rate, data = wav.read(src)
 
     # left = data[:, 0]
     # right = data[:, 1]
@@ -83,8 +77,9 @@ if __name__ == '__main__':
 
     _ = zip([b[0] for b in beat_lines], ts)
     beat, beatInMs = zip(*_)
-    beat = np.insert(beat,0,0)
-    beatInMs = np.insert(beatInMs,0,0)
+    beat = np.insert(beat, 0, 0)
+    beatInMs = np.insert(beatInMs, 0, 0)
+
 
     f2 = interpolate.interp1d(beat, beatInMs, kind='cubic')
 
@@ -107,6 +102,15 @@ if __name__ == '__main__':
         else:
             return np.array([beat2timemono(bn) for bn in beatnums])
 
+    return beat,beatInMs,beat2time
+
+def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314/beat.wav',batchname='portOjisan'):
+    ## load data
+    etree = cm.loadxml(scoreSrc)
+    root: ET.Element = etree.getroot()
+    beat_lines, vocal_lines, part_list, measureBeats = cm.findParts(root)
+
+    beat, beatInMs, beat2time=analyze_beat(beatSrcWav,beat_lines)
 
     # referencePitch = cm.pitchFromXmlNotation('0 C ')
     for vli, l in enumerate(vocal_lines):
