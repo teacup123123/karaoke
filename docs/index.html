@@ -87,7 +87,7 @@ canvas {
 				<button onclick="playRate(0)" type="button">t=0</button>
 				<br>
 				<select id="list"></select>
-				<button onclick="loadNotes()" type="button">Choose song</button><br>
+				<button onclick="loadTracks()" type="button">Choose song</button><br>
 			</td>
 			<td>
 				Time = <code id = 'clock'>0:00</code>
@@ -200,7 +200,8 @@ function choosePart()
 		mixers[j].value=10
 	}
 	mixers[partChosen].value = 100
-	updateVolumes()
+	updateVolumes();
+	loadNotes(tracks[partChosen]['src'])
 }
 
 function updateVolumes()
