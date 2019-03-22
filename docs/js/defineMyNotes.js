@@ -175,6 +175,7 @@ function refreshList(online=true) {
 	}
 	else
 	{
+		alert('now always online')
 		var list = document.getElementById("list");	
 		while (list.length > 0) {
 			list.remove(0);

@@ -129,17 +129,6 @@ function playRate(rate)
 <script src="js/defineMyNotes.js"></script>
 <script src="js/definePitchColor.js"></script>
 <script>
-fakeRead = [
-	{
-		"title":"portOjisan",
-		"tracks":
-			[
-				{"src": "songs/portOjisan/catvocalaccurate.mp3", "title":"貓人聲", "noteSrc":"json/portOjisan0.json" }
-				,{"src": "songs/portOjisan/zjvocalaccurate.mp3", "title":"zj人聲", "noteSrc":"json/portOjisan2.json" }
-				,{"src": "songs/portOjisan/ttvocalaccurate.mp3", "title":"凱人聲", "noteSrc":"json/portOjisan4.json" }
-			]
-	}
-]
 
 var mixers = []
 //clears the form
@@ -416,7 +405,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 </script>
 
 <script>
-refreshList(false);
+refreshList();
 </script>
 </body>
 </html>
