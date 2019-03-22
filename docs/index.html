@@ -110,12 +110,13 @@ function playRate(rate)
 	playbackRate=rate;
 	if(rate==0)
 	{
-		gameStartedAtMs+=audioPlayers[0].currentTime;
-		//progBar.value = 0;
+		//gameStartedAtMs+=audioPlayers[0].currentTime;
+		progBar.value = 0;
 		for(i=0; i<mixers.length;i++)
 		{
 			audioPlayers[i].currentTime=0;
 		}
+		rescan = true;
 	}
 	else
 	for(i=0; i<mixers.length;i++)
