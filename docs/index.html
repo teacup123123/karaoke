@@ -45,26 +45,189 @@ canvas {
 
 </style>
 </head>
-<body onload="startGame()">
+<body onload='startGame()'>
+
+<input type="range" min="0" max="100" value="50" class="slider" id="progBar" onchange="changeProgress()" disabled>
+<form id = 'masterControl'>
+	<table style="width:100%">
+		<tr>
+			<td style="width:30%">
+				<table style="width:100%">
+					<thead>
+					  <tr>
+						<th style="width:25%">Choose partition</th> 
+						<th>volume Mixer</th>
+					  </tr>
+					</thead>
+					<tbody  id="roles">
+					</tbody>
+				</table>
+			</td>
+			<td align='left'>	
+				<div class="slidecontainer">
+					<input type="range" min="-500" max="500" value="0" id="blSlider"></br>
+					position of the line:<code id = 'dial'>0</code>
+					<script>
+						var blSlider = document.getElementById("blSlider")
+						var dial = document.getElementById('dial')
+						blSlider.oninput = function() {
+							dial.textContent=blSlider.value;
+							blacklinerect.x=zeroAtPx+parseFloat(blSlider.value);
+						}
+					</script>
+				</div>
+				<button id ="playbutton" onclick="playPauseAudio()" type="button" disabled>Play/Pause Karaoke</button><br>
+				
+				<button onclick="playRate(1)" type="button">1x</button>
+				<button onclick="playRate(2)" type="button">2x</button>
+				<button onclick="playRate(4)" type="button">4x</button>
+				<button onclick="playRate(8)" type="button">8x</button>
+				<br>
+				<button onclick="playRate(16)" type="button">16x(可能不同步)</button>
+				<button onclick="playRate(0)" type="button">t=0</button>
+				<br>
+				<select id="list"></select>
+				<button onclick="loadNotes()" type="button">Choose song</button><br>
+			</td>
+			<td>
+				Time = <code id = 'clock'>0:00</code>
+			</td>
+		</tr>
+	</table>
+</form>
 
 
-<!--
-<button onclick="pauseAudio()" type="button">Pause Audio</button> 
--->
+<script>
+var audioPlayers = []
+for(i=0; i<10;i++)
+{
+	audioPlayers.push(document.createElement("AUDIO"));
+}
+
+var playbackRate = 1;
+function playRate(rate)
+{
+	playbackRate=rate;
+	if(rate==0)
+	{
+		gameStartedAtMs+=audioPlayers[0].currentTime;
+		//progBar.value = 0;
+		for(i=0; i<mixers.length;i++)
+		{
+			audioPlayers[i].currentTime=0;
+		}
+	}
+	else
+	for(i=0; i<mixers.length;i++)
+	{
+		audioPlayers[i].playbackRate=rate;
+	}
+}
+
+</script>
 
 <script src="js/defineMyNotes.js"></script>
 <script src="js/definePitchColor.js"></script>
 <script>
+fakeRead = [
+	{
+		"title":"portOjisan",
+		"tracks":
+			[
+				{"src": "songs/portOjisan/catvocalaccurate.mp3", "title":"貓人聲", "noteSrc":"json/portOjisan0.json" }
+				,{"src": "songs/portOjisan/zjvocalaccurate.mp3", "title":"zj人聲", "noteSrc":"json/portOjisan2.json" }
+				,{"src": "songs/portOjisan/ttvocalaccurate.mp3", "title":"凱人聲", "noteSrc":"json/portOjisan4.json" }
+			]
+	}
+]
 
-var aud = document.createElement("AUDIO");//TODO this needs to be dynamic
-aud.src = "songs/portOjisan/new.mp3";
-aud.load();
-detectPlayable([aud])
+var mixers = []
+//clears the form
+function updateVoices(songEntry)
+{
+	var roles = document.getElementById("roles");
+	
+	while(roles.childNodes.length>0)
+	{
+		roles.removeChild(roles.firstChild);
+	}
+
+	mixers.length=0;
+	for(i = 0; i<10;i++)
+	{	
+		if(i<songEntry['tracks'].length){
+			var track = songEntry['tracks'][i];
+			var trentry = document.createElement('tr');
+			roles.appendChild(trentry);
+			var tdentry = document.createElement('td');
+			tdentry.setAttribute('align', 'center');
+			trentry.appendChild(tdentry);
+			
+			var radioInput = document.createElement('input');
+			radioInput.setAttribute('type', 'radio');
+			radioInput.setAttribute('onchange', 'choosePart()');
+			radioInput.setAttribute('name', 'part');
+			radioInput.setAttribute('value', i);
+			tdentry.appendChild(radioInput);
+			tdentry.innerHTML+=track['title'];
+			
+			tdentry = document.createElement('td');
+			trentry.appendChild(tdentry);
+			var mixer = document.createElement('input');
+			mixer.setAttribute('type', 'range');
+			mixer.setAttribute('min', '0');
+			mixer.setAttribute('max', '100');
+			mixer.setAttribute('onchange', 'updateVolumes()');
+			mixer.setAttribute('value', 0);
+			mixers.push(mixer);
+			tdentry.setAttribute('align', 'center');
+			tdentry.appendChild(mixer)
+			
+			audioPlayers[i].src = track['src']
+			audioPlayers[i].load();
+		}
+		else
+		{
+			audioPlayers[i].src =""
+		}
+	}
+	detectPlayable(audioPlayers)
+}
+
+var masterControl = document.getElementById('masterControl')
+function choosePart()
+{
+	var radios = masterControl['part']
+	var partChosen
+	// loop through list of radio buttons
+    for (var i=0, len=radios.length; i<len; i++) {
+        if ( radios[i].checked ) { // radio checked?
+            partChosen = radios[i].value; // if so, hold its value in val
+            break; // and break out of for loop
+        }
+    }
+	for(j=0;j<mixers.length;j++)
+	{
+		mixers[j].value=10
+	}
+	mixers[partChosen].value = 100
+	updateVolumes()
+}
+
+function updateVolumes()
+{
+	for(i = 0; i<10;i++)
+	{	
+		if(i<mixers.length){
+			audioPlayers[i].volume = 0.01*mixers[i].value
+		}
+	}
+}
 
 
-var gamePaused = true
-var gamePausedAtMs = Date.now()
-var gameStartedAtMs = Date.now()
+</script>
+<script>
+
 var msPerFrame = 10
 var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
 var windowx = window.innerWidth*0.95;
@@ -79,17 +242,37 @@ function playPauseAudio() {
 	if(gamePaused)
 	{
 		gameStartedAtMs += (Date.now()-gamePausedAtMs);
-		aud.play();
+		for(i = 0; i<mixers.length;i++)
+		{	
+			audioPlayers[i].play();
+		}
 		gamePaused=false;
 	}
 	else
 	{	
 		gamePaused=true	;
-		aud.pause(); 
+		for(i = 0; i<mixers.length;i++)
+		{	
+			audioPlayers[i].pause();
+		}
 		gamePausedAtMs = Date.now();
 	}
 } 
 
+function changeProgress()
+{
+	if(gamePaused)
+	{
+		progBar.value = 1000*Math.round(progBar.value/1000)
+		gameStartedAtMs = gamePausedAtMs-progBar.value
+		
+		for(i = 0; i<mixers.length;i++)
+		{	
+			audioPlayers[i].currentTime=progBar.value*0.001;
+		}
+		alert('synced?')
+	}
+}
 
 var myRects = [];//all static things to be drawn is here
 
@@ -132,14 +315,22 @@ var rescan = true;//should be unset should there be a skip
 var scanStart = 0;
 var scanEnd = 0;
 
+function calculateClock(){
+	var secs = progBar.value/1000;
+	var min = Math.floor(secs/60);
+	secs = secs%60;
+	document.getElementById('clock').innerHTML= min.toString()+':'+Math.	round(secs).toString()
+	
+}
+
+
 function updateGameArea() {//assumes myNotes sorted by start time
     myGameArea.frameNo += 1;
-	if (!gamePaused)
-	{
-		progress = Date.now()-gameStartedAtMs;
-		updateFifth(progress);
-	}
+	progBar.value = audioPlayers[0].currentTime*1000;
+	updateFifth(progBar.value);
     myGameArea.clear();
+	
+	calculateClock()
 	
 	if(rescan)
 	{
@@ -148,7 +339,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if(_.start-progress<=windowx-zeroAtPx){
+			if(_.start-progBar.value<=windowx-zeroAtPx){
 				break;
 			}
 		}
@@ -160,7 +351,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if(_.start-progress>windowx-zeroAtPx){
+			if(_.start-progBar.value>windowx-zeroAtPx){
 				break;
 			}
 		}
@@ -172,10 +363,10 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanStart=i;
 			var _ = myNotes[i];
-			if((_.start-progress)/msPerPx<=windowx-zeroAtPx&&(_.end-progress)/msPerPx>=-zeroAtPx){//completely visible... no change
+			if((_.start-progBar.value)/msPerPx<=windowx-zeroAtPx&&(_.end-progBar.value)/msPerPx>=-zeroAtPx){//completely visible... no change
 				break;
 			}
-			else if((_.start-progress)/msPerPx>windowx-zeroAtPx)
+			else if((_.start-progBar.value)/msPerPx>windowx-zeroAtPx)
 			{
 				break;//stops at first invisible in the future
 			}
@@ -184,7 +375,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		{
 			scanEnd=i;
 			var _ = myNotes[i];
-			if((_.start-progress)/msPerPx>windowx-zeroAtPx){
+			if((_.start-progBar.value)/msPerPx>windowx-zeroAtPx){
 				break;
 			}
 		}
@@ -222,50 +413,10 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	
 }
 
-
 </script>
 
-<noscript>Sorry, your browser does not support JavaScript!</noscript>
-<input type="range" min="1" max="100" value="50" class="slider" id="progBar">
-<div style="text-align:left;width:480px;">
-<p id="info">Info here</p>
-<p>
-	<select id="list", onchange="loadNotes()">
-	</select>
-	<button onclick="refreshList()" type="button">Refresh songs</button>
-</p>
-<button id ="playbutton" onclick="playPauseAudio()" disabled = "true" type="button">Play/Pause Karaoke</button>
 <script>
-function shiftBL(qtty)
-{
-	blacklinerect.x-=qtty;
-	var dial = document.getElementById('dial')
-	dial.textContent=blacklinerect.x-zeroAtPx;
-}
-</script>
-
-<div class="slidecontainer">
-	<input type="range" min="-500" max="500" value="0" id="blSlider"></br>
-	position of the line:<code id = 'dial'>0</code>
-	<script>
-		var blSlider = document.getElementById("blSlider")
-		var dial = document.getElementById('dial')
-		blSlider.oninput = function() {
-			dial.textContent=blSlider.value;
-			blacklinerect.x=zeroAtPx+parseFloat(blSlider.value);
-		}
-	</script>
-</div>
-
-<!--
-  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
-  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
-  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
-  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
-  -->
-</div>
-<script>
-refreshList();
+refreshList(false);
 </script>
 </body>
 </html>
