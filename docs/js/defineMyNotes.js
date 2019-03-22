@@ -67,7 +67,6 @@ function loadNotes(src)
 			
 			noteThickness = windowy/gotmyNotes.range;
 			
-			info.innerHTML="loaded json "+songEntry.title;
 			
 			resetStaticObjects(gotmyNotes.referencePitch);
 			
