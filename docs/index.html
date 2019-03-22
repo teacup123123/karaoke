@@ -332,6 +332,10 @@ function updateGameArea() {//assumes myNotes sorted by start time
 			if(_.start-progBar.value<=windowx-zeroAtPx){
 				break;
 			}
+			else if((_.start-progBar.value)/msPerPx>windowx-zeroAtPx)
+			{
+				break;//stops at first invisible in the future
+			}
 		}
 		
 		
