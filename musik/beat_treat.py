@@ -132,7 +132,7 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         notesForJson.sort(key=lambda x:x['start'])
 
 
-        ref = 12 * np.floor(minPitch / 12.)
+        ref = 4 * np.floor(minPitch / 4.)
         content = {'notes': notesForJson, 'referencePitch': int(ref),
                    'range': maxPitch - ref + 4, 'vocalmin': minPitch, 'vocalmax': maxPitch}
         content = json.dumps(content,ensure_ascii=False)
@@ -142,7 +142,7 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
     measureBeats = np.array(measureBeats)
     measureTimes = beat2time(measureBeats)
     qnpms=np.diff(measureBeats)/np.diff(measureTimes)
-    bpm = qnpms*1000*60/8
+    bpm = qnpms*1000*60/8/3
     adjustPartTempo(part_list[0], bpm)
     etree.write('../docs/xml/{}.xml'.format(batchname))
 
@@ -165,3 +165,6 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         pldec.insert(0, partDec)
         root.insert(5, part)
         etree.write('../docs/xml/{}{}.xml'.format(batchname, parti))
+
+if __name__ == '__main__':
+    beatfusion(scoreSrc='../score/0323_Tikai.musicxml', beatSrcWav='../docs/songs/portOjisan/beat190322.wav', batchname='portOjisan0322')
