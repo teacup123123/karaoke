@@ -62,9 +62,10 @@ function rectangle(width, height, color, x, y,label='', isNote = false) {
 				ctx.fillStyle = this.colorNeutral();
 			}
 			ctx.fillRect(this.x, this.y, this.width, this.height);
-			ctx.fillStyle = this.textColor();
-			ctx.font = noteThickness.toString()+"px Arial";
-			ctx.fillText(this.label, this.x, this.y+noteThickness);
+			ctx.fillStyle = 'black';//this.textColor();
+			var textSize = 30;//noteThickness;
+			ctx.font = textSize.toString()+"px Arial";
+			ctx.fillText(this.label, this.x, this.y+textSize);
 		}
     }
 }
