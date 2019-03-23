@@ -132,7 +132,7 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         notesForJson.sort(key=lambda x:x['start'])
 
 
-        ref = 4 * np.floor(minPitch / 4.)
+        ref = 4 * np.floor(minPitch / 4.)-6
         content = {'notes': notesForJson, 'referencePitch': int(ref),
                    'range': maxPitch - ref + 4, 'vocalmin': minPitch, 'vocalmax': maxPitch}
         content = json.dumps(content,ensure_ascii=False)

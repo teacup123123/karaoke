@@ -50,9 +50,23 @@ def autocopy(string:str):
         else:
             clipboard.copy(c)
             pyautogui.hotkey('ctrl', 'v')
+            pyautogui.hotkey('right')
 
 
 
 if __name__ == '__main__':
     # autotype('hello')
-    autocopy('this is the power of pasting')
+    lyrs = """
+    等無心愛的人 猶原一咧人 
+未輸咧夢中 醒來總是空 
+伊的批信無來 苦苦我咧等待 
+心中毋敢講 我的央望 
+你走去卓位 予我無望 大海總是茫茫 
+夜夜咧等 夜夜咧夢 人生擱存幾冬 
+心愛的人 夢中的人 暗夜存我一人 
+有情的人 請毋通 未記阮的名
+
+若有來生 請叫阮的名
+    """
+
+    autocopy(''.join(lyrs.split()))
