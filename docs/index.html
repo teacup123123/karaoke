@@ -323,21 +323,24 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	
 	var upcomingLyric=""
 	//Scan between the two indexes
-	for (i=scanStart; i<scanEnd; i+=1)
+	if(blacklinerect)
 	{
-		note = myNotes[i]
-		note.rect.y = windowy-note.pitch*noteThickness;
-		note.rect.x = zeroAtPx+(note.start-progBar.value)/msPerPx;
-		note.rect.update()
-		if(note.rect.x>blacklinerect.x&&note.lyric!=='!')
+		for (i=scanStart; i<scanEnd; i+=1)
 		{
-			upcomingLyric+=note.lyric+' - ';
+			note = myNotes[i]
+			note.rect.y = windowy-note.pitch*noteThickness;
+			note.rect.x = zeroAtPx+(note.start-progBar.value)/msPerPx;
+			note.rect.update()
+			if(note.rect.x>blacklinerect.x&&note.lyric!=='!')
+			{
+				upcomingLyric+=note.lyric+' - ';
+			}
 		}
+		var ctx = myGameArea.context;
+		ctx.fillStyle = 'black';
+		ctx.font = (noteThickness*4).toString()+"px Arial";
+		ctx.fillText(upcomingLyric, blacklinerect.x, windowy/2-noteThickness*2);
 	}
-	var ctx = myGameArea.context;
-	ctx.fillStyle = 'black';
-	ctx.font = (noteThickness*4).toString()+"px Arial";
-	ctx.fillText(upcomingLyric, blacklinerect.x, windowy/2-noteThickness*2);
 	
 }
 
