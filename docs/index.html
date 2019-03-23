@@ -329,7 +329,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progBar.value)/msPerPx;
 		note.rect.update()
-		if(note.rect.x>blacklinerect.x)
+		if(note.rect.x>blacklinerect.x&&note.lyric!=='!')
 		{
 			upcomingLyric+=note.lyric+' - ';
 		}
@@ -337,7 +337,7 @@ function updateGameArea() {//assumes myNotes sorted by start time
 	var ctx = myGameArea.context;
 	ctx.fillStyle = 'black';
 	ctx.font = (noteThickness*4).toString()+"px Arial";
-	ctx.fillText(upcomingLyric, blacklinerect.x, windowy-noteThickness*2);
+	ctx.fillText(upcomingLyric, blacklinerect.x, windowy/2-noteThickness*2);
 	
 }
 
