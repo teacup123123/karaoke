@@ -97,35 +97,7 @@ canvas {
 </form>
 
 
-<script>
-var audioPlayers = []
-for(i=0; i<10;i++)
-{
-	audioPlayers.push(document.createElement("AUDIO"));
-}
-
-var playbackRate = 1;
-function playRate(rate)
-{
-	playbackRate=rate;
-	if(rate==0)
-	{
-		//gameStartedAtMs+=audioPlayers[0].currentTime;
-		progBar.value = 0;
-		for(i=0; i<mixers.length;i++)
-		{
-			audioPlayers[i].currentTime=0;
-		}
-		rescan = true;
-	}
-	else
-	for(i=0; i<mixers.length;i++)
-	{
-		audioPlayers[i].playbackRate=rate;
-	}
-}
-
-</script>
+<script src='js/timing.js'></script>
 
 <script src="js/defineMyNotes.js"></script>
 <script src="js/definePitchColor.js"></script>
@@ -218,52 +190,16 @@ function updateVolumes()
 
 </script>
 <script>
-
-var msPerFrame = 10
-var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
 var windowx = window.innerWidth*0.95;
 var windowy = window.innerHeight*0.6;
 var zeroAtPx = windowx*0.2;
+
+var msPerFrame = 10
+var pixPerFrame = 2//5 pixel per 10 ms means 500 pixel per second
 var msPerPx = msPerFrame/pixPerFrame
 var latestMs = (windowx-zeroAtPx)/pixPerFrame*msPerFrame
 var historyMs = zeroAtPx/pixPerFrame*msPerFrame
 var noteThickness = windowy/24
-
-function playPauseAudio() { 
-	if(gamePaused)
-	{
-		gameStartedAtMs += (Date.now()-gamePausedAtMs);
-		for(i = 0; i<mixers.length;i++)
-		{	
-			audioPlayers[i].play();
-		}
-		gamePaused=false;
-	}
-	else
-	{	
-		gamePaused=true	;
-		for(i = 0; i<mixers.length;i++)
-		{	
-			audioPlayers[i].pause();
-		}
-		gamePausedAtMs = Date.now();
-	}
-} 
-
-function changeProgress()
-{
-	if(gamePaused)
-	{
-		progBar.value = 1000*Math.round(progBar.value/1000)
-		gameStartedAtMs = gamePausedAtMs-progBar.value
-		
-		for(i = 0; i<mixers.length;i++)
-		{	
-			audioPlayers[i].currentTime=progBar.value*0.001;
-		}
-		alert('synced?')
-	}
-}
 
 var myRects = [];//all static things to be drawn is here
 
@@ -385,28 +321,23 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		r.update()
     }
 	
+	var upcomingLyric=""
 	//Scan between the two indexes
 	for (i=scanStart; i<scanEnd; i+=1)
 	{
 		note = myNotes[i]
-		/*if(progress + latestMs < note.start)
-		{
-			break;
-		}
-		
-		if(progress - historyMs > note.end)
-		{
-			myNotes.splice(i,1)
-			i-=1
-			continue;
-		}*/
-		
-		//else in the canvas
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progBar.value)/msPerPx;
-		//note.rect.height = noteThickness*1.3;
 		note.rect.update()
+		if(note.rect.x>blacklinerect.x)
+		{
+			upcomingLyric+=note.lyric+' - ';
+		}
 	}
+	var ctx = myGameArea.context;
+	ctx.fillStyle = 'black';
+	ctx.font = (noteThickness*4).toString()+"px Arial";
+	ctx.fillText(upcomingLyric, blacklinerect.x, windowy-noteThickness*2);
 	
 }
 
