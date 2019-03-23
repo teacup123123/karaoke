@@ -329,10 +329,6 @@ function updateGameArea() {//assumes myNotes sorted by start time
 		note.rect.y = windowy-note.pitch*noteThickness;
 		note.rect.x = zeroAtPx+(note.start-progBar.value)/msPerPx;
 		note.rect.update()
-		if(false && note.rect.x>blacklinerect.x&&note.lyric!=='!')
-		{
-			upcomingLyric+=note.lyric+' - ';
-		}
 	}
 	var ctx = myGameArea.context;
 	ctx.fillStyle = 'black';
