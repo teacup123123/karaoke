@@ -167,4 +167,4 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         etree.write('../docs/xml/{}{}.xml'.format(batchname, parti))
 
 if __name__ == '__main__':
-    beatfusion(scoreSrc='../score/0323_Tikai.musicxml', beatSrcWav='../docs/songs/portOjisan/beat190322.wav', batchname='portOjisan0322')
+    beatfusion(scoreSrc='../score/0325_Tikai.musicxml', beatSrcWav='../docs/songs/portOjisan/beat190322.wav', batchname='portOjisan0325')
