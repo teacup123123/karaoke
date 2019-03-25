@@ -4,10 +4,10 @@
 		"tracks":
 			[
 				{"src": "songs/0325/portOjisan0325-Piano_1.mp3", "title":"cat", "noteSrc":"json/portOjisan03250.json" }
-				,{"src": "songs/0325/portOjisan0325-Harmonica_aug.mp3", "title":"harmon", "noteSrc":"json/portOjisan03251.json" }
+				,{"src": "songs/0325/portOjisan0325-Harmonica.mp3", "title":"harmon", "noteSrc":"json/portOjisan03251.json" }
 				,{"src": "songs/0325/portOjisan0325-Piano_2.mp3", "title":"zj", "noteSrc":"json/portOjisan03252.json" }
 				,{"src": "songs/0325/portOjisan0325-Piccolo.mp3", "title":"whistle", "noteSrc":"json/portOjisan03253.json" }
-				,{"src": "songs/0325/portOjisan0325-Piano_3_aug.mp3", "title":"titi", "noteSrc":"json/portOjisan03254.json" }
+				,{"src": "songs/0325/portOjisan0325-Piano_3.mp3", "title":"titi", "noteSrc":"json/portOjisan03254.json" }
 				,{"src": "songs/0325/portOjisan0325-Contrabass.mp3", "title":"bass", "noteSrc":"json/portOjisan03255.json" }
 				,{"src": "songs/0325/portOjisan0325-Finger.mp3", "title":"finger", "noteSrc":"json/portOjisan03225.json" }
 			]
