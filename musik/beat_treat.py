@@ -139,10 +139,23 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         with open('../docs/json/{}{}.json'.format(batchname, vli), 'w', encoding='utf') as f:
             f.write(content)
 
+    # beat fusion
+    notesForJson=[]
+    for start, end, pitch, lyr in beat_lines:
+        startms, endms = beat2time(start), beat2time(end)
+        note = {'start': int(startms), 'end': int(endms), 'pitch': -1, 'lyric': lyr}
+        notesForJson.append(note)
+    notesForJson.sort(key=lambda x: x['start'])
+    content = {'notes': notesForJson, 'referencePitch': 44,
+               'range': 8, 'vocalmin': 44, 'vocalmax': 52}
+    content = json.dumps(content, ensure_ascii=False)
+    with open('../docs/json/{}{}.json'.format(batchname, 'beats'), 'w', encoding='utf') as f:
+        f.write(content)
+
     measureBeats = np.array(measureBeats)
     measureTimes = beat2time(measureBeats)
     qnpms=np.diff(measureBeats)/np.diff(measureTimes)
-    bpm = qnpms*1000*60/8/3
+    bpm = qnpms*1000*60/8/3*2
     adjustPartTempo(part_list[0], bpm)
     etree.write('../docs/xml/{}.xml'.format(batchname))
 
@@ -167,4 +180,4 @@ def beatfusion(scoreSrc='../score/0316.xml',beatSrcWav='../treated/corrected0314
         etree.write('../docs/xml/{}{}.xml'.format(batchname, parti))
 
 if __name__ == '__main__':
-    beatfusion(scoreSrc='../score/0325_Tikai.musicxml', beatSrcWav='../docs/songs/portOjisan/beat190322.wav', batchname='portOjisan0325')
+    beatfusion(scoreSrc='../score/0327_Tikai.musicxml', beatSrcWav='../score/0327_Tikai_beated-Finger_Snap.wav', batchname='portOjisan0327')
