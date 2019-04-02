@@ -183,6 +183,14 @@ function updateVolumes()
 	{	
 		if(i<mixers.length){
 			audioPlayers[i].volume = 0.01*mixers[i].value
+			if(mixers[i].value<5)
+			{
+				audioPlayers[i].muted = true;
+			}
+			else
+			{
+				audioPlayers[i].muted = false;
+			}
 		}
 	}
 }
