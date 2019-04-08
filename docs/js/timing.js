@@ -61,6 +61,5 @@ function changeProgress()
 		{	
 			audioPlayers[i].currentTime=progBar.value*0.001;
 		}
-		alert('synced?')
 	}
 }
