@@ -47,7 +47,7 @@ canvas {
 </head>
 <body onload='startGame()'>
 
-<input type="range" min="0" max="100" value="50" class="slider" id="progBar" onchange="changeProgress()">
+<input type="range" min="0" max="100" value="50" class="slider" id="progBar" onchange="function(){interrupted=true;}">
 <form id = 'masterControl'>
 	<table style="width:100%">
 		<tr>
@@ -259,13 +259,20 @@ function calculateClock(){
 }
 
 var gamePaused = false;
+var interrupted = false;
 function updateGameArea() {//assumes myNotes sorted by start time
     myGameArea.frameNo += 1;
+	if(interrupted)
+	{
+		changeProgress();
+		interrupted = false;
+	}
 	if(!gamePaused)
 	{
 		progBar.value = audioPlayers[0].currentTime*1000;
 		updateFifth(progBar.value);
 	}
+	
     myGameArea.clear();
 	
 	calculateClock()
