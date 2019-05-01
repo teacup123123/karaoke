@@ -261,8 +261,11 @@ function calculateClock(){
 
 function updateGameArea() {//assumes myNotes sorted by start time
     myGameArea.frameNo += 1;
-	progBar.value = audioPlayers[0].currentTime*1000;
-	updateFifth(progBar.value);
+	if(!gamePaused)
+	{
+		progBar.value = audioPlayers[0].currentTime*1000;
+		updateFifth(progBar.value);
+	}
     myGameArea.clear();
 	
 	calculateClock()
