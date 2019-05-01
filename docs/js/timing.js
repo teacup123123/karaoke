@@ -53,7 +53,8 @@ function playPauseAudio() {
 function changeProgress()
 {
 	progBar.value = 1000*Math.round(progBar.value/1000)
-	gameStartedAtMs = gamePausedAtMs-progBar.value
+	if(gamePaused)
+		gameStartedAtMs = gamePausedAtMs-progBar.value
 	rescan=true;
 
 	for(i = 0; i<mixers.length;i++)
